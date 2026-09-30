@@ -405,9 +405,9 @@
     {
       "source": "local-repository:scripts/multi_acccollab/README.md",
       "packaged_path": "code/scripts/multi_acccollab/README.md",
-      "bytes": 1765,
+      "bytes": 2325,
       "redacted": false,
-      "sha256": "682ca03f68c2479a1d7028a22014daf99ccaafcf269aaa3110331b85a8771ed0"
+      "sha256": "18fd7b0702d64ec3c5a017ddd39d6ac7ef5c90905d2b3827f619c189eff693a7"
     },
     {
       "source": "local-repository:src/__init__.py",
@@ -1370,11 +1370,11 @@
       "sha256": "7b7f3d0b9f68275daa1a82fa91d9a04a410be28bbe48f6107de28f3c5e2a8e50"
     },
     {
-      "source": "paper-source:scripts/supplementary_README.md",
+      "source": "public-release:README.md",
       "packaged_path": "README.md",
-      "bytes": 4953,
+      "bytes": 9020,
       "redacted": false,
-      "sha256": "3e57eaa590552f334ff4692efd5426593197ac125441768fba3c624942eb559b"
+      "sha256": "a7191e021d95e74a7278206ab791d5278d14762a61d1f44897bf49cc4b9639d7"
     },
     {
       "packaged_path": "reproduce/prepare_workspace.py",
