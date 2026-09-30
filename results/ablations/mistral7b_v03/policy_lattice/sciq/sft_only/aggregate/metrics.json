@@ -1,0 +1,121 @@
+{
+  "answer_extractor_sha256": "ecc5899445dc3c1764dad321b8bc91feabd4f865c601976896657b2c540b14c1",
+  "dataset": "sciq",
+  "decision_rule": "round_majority_then_fixed_direct",
+  "fingerprint": "b9546a9734680f6485f3eadd2190e18e8d91810bd14722df70c9ff0403c11da9",
+  "headline": {
+    "accuracy": 0.867,
+    "fallback_accuracy": 0.25,
+    "fallback_rate": 0.016,
+    "majority_conditional_accuracy": 0.8770325203252033,
+    "majority_coverage": 0.984,
+    "oracle_any_role_accuracy": 0.926,
+    "parse_rate": 1.0,
+    "per_role": {
+      "direct": {
+        "accuracy": 0.859,
+        "parse_rate": 1.0,
+        "truncation_rate": 0.0
+      },
+      "evidence": {
+        "accuracy": 0.859,
+        "parse_rate": 1.0,
+        "truncation_rate": 0.0
+      },
+      "verification": {
+        "accuracy": 0.857,
+        "parse_rate": 1.0,
+        "truncation_rate": 0.0
+      }
+    },
+    "round": 0,
+    "samples": 1000,
+    "unanimous_rate": 0.844
+  },
+  "implementation_version": "multi_acccollab_policy_lattice_v1",
+  "pair_agreement": {
+    "direct+evidence": {
+      "agree": 889,
+      "agree_correct": 814,
+      "conditional_accuracy": 0.9156355455568054,
+      "coverage": 0.889
+    },
+    "direct+verification": {
+      "agree": 885,
+      "agree_correct": 808,
+      "conditional_accuracy": 0.9129943502824859,
+      "coverage": 0.885
+    },
+    "evidence+verification": {
+      "agree": 898,
+      "agree_correct": 813,
+      "conditional_accuracy": 0.9053452115812918,
+      "coverage": 0.898
+    }
+  },
+  "per_round": [
+    {
+      "accuracy": 0.867,
+      "fallback_accuracy": 0.25,
+      "fallback_rate": 0.016,
+      "majority_conditional_accuracy": 0.8770325203252033,
+      "majority_coverage": 0.984,
+      "oracle_any_role_accuracy": 0.926,
+      "parse_rate": 1.0,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.859,
+          "parse_rate": 1.0,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.859,
+          "parse_rate": 1.0,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.857,
+          "parse_rate": 1.0,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 0,
+      "samples": 1000,
+      "unanimous_rate": 0.844
+    }
+  ],
+  "pipeline": "multi_acccollab_ablation",
+  "rescored_from_raw_response": true,
+  "role_records": {
+    "direct": {
+      "path": "PROJECT_ROOT/output/ablations/mistral_7b_instruct_v03_full5/policy_lattice/sciq/sft_only/roles/direct/records.jsonl",
+      "sha256": "f9ea7286ab6c380a61160219753e1b9fd4c9237faafaac099074a767d74691eb"
+    },
+    "evidence": {
+      "path": "PROJECT_ROOT/output/ablations/mistral_7b_instruct_v03_full5/policy_lattice/sciq/sft_only/roles/evidence/records.jsonl",
+      "sha256": "6d523de5bd6b6ddbba60b05f636f413f085cf692526ffa9b7a715d67918cca06"
+    },
+    "verification": {
+      "path": "PROJECT_ROOT/output/ablations/mistral_7b_instruct_v03_full5/policy_lattice/sciq/sft_only/roles/verification/records.jsonl",
+      "sha256": "af5d57ea47432b25e573bf2cb8029015a3fc41cd07165a8aaba0882e847b2165"
+    }
+  },
+  "roles": [
+    "direct",
+    "evidence",
+    "verification"
+  ],
+  "samples": 1000,
+  "schema_version": 1,
+  "source_sha256": {
+    "src/ablations/policy_lattice.py": "2226e636f79fcf8a288f4e8cd1fd48d67e1f07dd90b4c4e3ab31b0a24bf35d41",
+    "src/acccollab/evaluation.py": "4ad0b2a6f74b7f5b5e9463c4aab92b0fbcb86bd5c3ab8a3a0e1539cb48f0aa6c",
+    "src/acccollab/generation.py": "d7b2ee834fc9ef863a299a2032a05c4d052b240e0762e87b309408360119293c",
+    "src/acccollab/policy.py": "292dda79ae833647fe79004a79a580e39b2c4f22f1440eb34ec0f25fb32f4d4d",
+    "src/acccollab/prompts.py": "5677565cda96ab7bcaf3f7bd10f1b6724392083e69156806805538607e7b88b2",
+    "src/inference/vllm_server.py": "28a899afc53bd72bf76fc846ed847d15948e1bff663c49b21c7c3ef4563b7259",
+    "src/parsing/answer_extractor.py": "ecc5899445dc3c1764dad321b8bc91feabd4f865c601976896657b2c540b14c1"
+  },
+  "uses_judge": false,
+  "variant": "sft_only"
+}

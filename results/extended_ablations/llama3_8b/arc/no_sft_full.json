@@ -1,0 +1,237 @@
+{
+  "answer_extractor_sha256": "ecc5899445dc3c1764dad321b8bc91feabd4f865c601976896657b2c540b14c1",
+  "dataset": "arc",
+  "decision_rule": "round_majority_then_fixed_direct",
+  "fingerprint": "e4dde24b022a328627e45a596922024ef8d138a8d1a47d94c0aa345152a25126",
+  "headline": {
+    "accuracy": 0.9052987598647125,
+    "fallback_accuracy": 0.23404255319148937,
+    "fallback_rate": 0.013246899661781286,
+    "majority_conditional_accuracy": 0.9143101970865467,
+    "majority_coverage": 0.9867531003382187,
+    "oracle_any_role_accuracy": 0.9537767756482526,
+    "parse_rate": 0.9997181510710259,
+    "per_role": {
+      "direct": {
+        "accuracy": 0.8658399098083427,
+        "parse_rate": 0.9991544532130778,
+        "truncation_rate": 0.0
+      },
+      "evidence": {
+        "accuracy": 0.8889515219842165,
+        "parse_rate": 0.9997181510710259,
+        "truncation_rate": 0.0
+      },
+      "verification": {
+        "accuracy": 0.891206313416009,
+        "parse_rate": 0.9997181510710259,
+        "truncation_rate": 0.0
+      }
+    },
+    "round": 4,
+    "samples": 3548,
+    "unanimous_rate": 0.8218714768883878
+  },
+  "implementation_version": "multi_acccollab_policy_lattice_v1",
+  "pair_agreement": {
+    "direct+evidence": {
+      "agree": 3095,
+      "agree_correct": 2913,
+      "conditional_accuracy": 0.9411954765751211,
+      "coverage": 0.8723224351747464
+    },
+    "direct+verification": {
+      "agree": 3106,
+      "agree_correct": 2923,
+      "conditional_accuracy": 0.9410817772054089,
+      "coverage": 0.8754227733934611
+    },
+    "evidence+verification": {
+      "agree": 3132,
+      "agree_correct": 2971,
+      "conditional_accuracy": 0.948595146871009,
+      "coverage": 0.882750845546787
+    }
+  },
+  "per_round": [
+    {
+      "accuracy": 0.8759864712514093,
+      "fallback_accuracy": 0.18,
+      "fallback_rate": 0.014092446448703494,
+      "majority_conditional_accuracy": 0.885934819897084,
+      "majority_coverage": 0.9859075535512966,
+      "oracle_any_role_accuracy": 0.9281285231116122,
+      "parse_rate": 1.0,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.8599210822998873,
+          "parse_rate": 0.9997181510710259,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.8700676437429538,
+          "parse_rate": 1.0,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.879086809470124,
+          "parse_rate": 0.9988726042841037,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 0,
+      "samples": 3548,
+      "unanimous_rate": 0.8607666290868095
+    },
+    {
+      "accuracy": 0.9055806087936866,
+      "fallback_accuracy": 0.2982456140350877,
+      "fallback_rate": 0.016065388951521983,
+      "majority_conditional_accuracy": 0.9154969922658264,
+      "majority_coverage": 0.983934611048478,
+      "oracle_any_role_accuracy": 0.951803833145434,
+      "parse_rate": 0.9994363021420518,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.8697857948139797,
+          "parse_rate": 0.9988726042841037,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.8881059751972943,
+          "parse_rate": 1.0,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.8852874859075536,
+          "parse_rate": 0.9974633596392334,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 1,
+      "samples": 3548,
+      "unanimous_rate": 0.8182074408117249
+    },
+    {
+      "accuracy": 0.9016347237880497,
+      "fallback_accuracy": 0.3125,
+      "fallback_rate": 0.018038331454340473,
+      "majority_conditional_accuracy": 0.9124569460390356,
+      "majority_coverage": 0.9819616685456595,
+      "oracle_any_role_accuracy": 0.9546223224351748,
+      "parse_rate": 0.9997181510710259,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.8686583990980834,
+          "parse_rate": 0.9994363021420518,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.886978579481398,
+          "parse_rate": 0.9991544532130778,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.8838782412626832,
+          "parse_rate": 0.9985907553551296,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 2,
+      "samples": 3548,
+      "unanimous_rate": 0.8213077790304397
+    },
+    {
+      "accuracy": 0.9067080045095829,
+      "fallback_accuracy": 0.27419354838709675,
+      "fallback_rate": 0.017474633596392335,
+      "majority_conditional_accuracy": 0.9179575444635686,
+      "majority_coverage": 0.9825253664036077,
+      "oracle_any_role_accuracy": 0.9551860202931229,
+      "parse_rate": 1.0,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.8689402480270575,
+          "parse_rate": 0.9997181510710259,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.8889515219842165,
+          "parse_rate": 0.9994363021420518,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.8866967305524239,
+          "parse_rate": 0.9980270574971815,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 3,
+      "samples": 3548,
+      "unanimous_rate": 0.8196166854565953
+    },
+    {
+      "accuracy": 0.9052987598647125,
+      "fallback_accuracy": 0.23404255319148937,
+      "fallback_rate": 0.013246899661781286,
+      "majority_conditional_accuracy": 0.9143101970865467,
+      "majority_coverage": 0.9867531003382187,
+      "oracle_any_role_accuracy": 0.9537767756482526,
+      "parse_rate": 0.9997181510710259,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.8658399098083427,
+          "parse_rate": 0.9991544532130778,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.8889515219842165,
+          "parse_rate": 0.9997181510710259,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.891206313416009,
+          "parse_rate": 0.9997181510710259,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 4,
+      "samples": 3548,
+      "unanimous_rate": 0.8218714768883878
+    }
+  ],
+  "pipeline": "multi_acccollab_ablation",
+  "rescored_from_raw_response": true,
+  "role_records": {
+    "direct": {
+      "path": "PROJECT_ROOT/output/ablations/llama3_8b_component_v1/no_sft/eval_runs/arc/roles/direct/eval/records.jsonl",
+      "sha256": "dd6037181acce668627d743e63d7f97424631b36c4437fdb8bd0ee1859157019"
+    },
+    "evidence": {
+      "path": "PROJECT_ROOT/output/ablations/llama3_8b_component_v1/no_sft/eval_runs/arc/roles/evidence/eval/records.jsonl",
+      "sha256": "56888c350b0528cd1e98abc90c39a0b50108efe70907b205f9d7bfc8a8c2a19f"
+    },
+    "verification": {
+      "path": "PROJECT_ROOT/output/ablations/llama3_8b_component_v1/no_sft/eval_runs/arc/roles/verification/eval/records.jsonl",
+      "sha256": "3435e076946acd2c5492b4e6a709474fc1a081d4349b6cfc78854a02cd5c3e67"
+    }
+  },
+  "roles": [
+    "direct",
+    "evidence",
+    "verification"
+  ],
+  "samples": 3548,
+  "schema_version": 1,
+  "source_sha256": {
+    "src/ablations/policy_lattice.py": "2226e636f79fcf8a288f4e8cd1fd48d67e1f07dd90b4c4e3ab31b0a24bf35d41",
+    "src/acccollab/evaluation.py": "4ad0b2a6f74b7f5b5e9463c4aab92b0fbcb86bd5c3ab8a3a0e1539cb48f0aa6c",
+    "src/acccollab/generation.py": "d7b2ee834fc9ef863a299a2032a05c4d052b240e0762e87b309408360119293c",
+    "src/acccollab/policy.py": "292dda79ae833647fe79004a79a580e39b2c4f22f1440eb34ec0f25fb32f4d4d",
+    "src/acccollab/prompts.py": "5677565cda96ab7bcaf3f7bd10f1b6724392083e69156806805538607e7b88b2",
+    "src/inference/vllm_server.py": "bb42973779d96cf095f53fba0ac54c62f678dd112155c85ff40c40e41962fba9",
+    "src/parsing/answer_extractor.py": "ecc5899445dc3c1764dad321b8bc91feabd4f865c601976896657b2c540b14c1"
+  },
+  "uses_judge": false,
+  "variant": "no_sft_full"
+}

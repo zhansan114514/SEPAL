@@ -1,0 +1,77 @@
+{
+  "agents": 4,
+  "dataset": "boolq",
+  "decision_rule": "mean_final_agent_accuracy",
+  "final": {
+    "accuracy": 0.7912079510703364,
+    "agent_decisions": 13080,
+    "mean_agent_accuracy": 0.7912079510703364,
+    "mean_agent_parse_rate": 0.9971712538226299,
+    "mean_agent_truncation_rate": 0.0,
+    "plurality_vote_accuracy": 0.7908256880733945,
+    "plurality_vote_coverage": 0.9957186544342508,
+    "round": 4,
+    "samples": 3270,
+    "source": "round_4_mean_agent_accuracy"
+  },
+  "method": "som_4x",
+  "model_name": "PROJECT_ROOT/models/Mistral-7B-Instruct-v0.3",
+  "model_type": "mistral_v03",
+  "per_round": [
+    {
+      "agent_decisions": 13080,
+      "mean_agent_accuracy": 0.7565749235474006,
+      "mean_agent_parse_rate": 0.9999235474006116,
+      "mean_agent_truncation_rate": 0.0,
+      "plurality_vote_accuracy": 0.7510703363914373,
+      "plurality_vote_coverage": 0.9874617737003059,
+      "round": 0,
+      "samples": 3270
+    },
+    {
+      "agent_decisions": 13080,
+      "mean_agent_accuracy": 0.7809633027522935,
+      "mean_agent_parse_rate": 0.9988532110091743,
+      "mean_agent_truncation_rate": 0.0,
+      "plurality_vote_accuracy": 0.7807339449541284,
+      "plurality_vote_coverage": 0.9984709480122325,
+      "round": 1,
+      "samples": 3270
+    },
+    {
+      "agent_decisions": 13080,
+      "mean_agent_accuracy": 0.776223241590214,
+      "mean_agent_parse_rate": 0.9935779816513761,
+      "mean_agent_truncation_rate": 0.0,
+      "plurality_vote_accuracy": 0.7758409785932722,
+      "plurality_vote_coverage": 0.9896024464831804,
+      "round": 2,
+      "samples": 3270
+    },
+    {
+      "agent_decisions": 13080,
+      "mean_agent_accuracy": 0.7891437308868502,
+      "mean_agent_parse_rate": 0.9967125382262997,
+      "mean_agent_truncation_rate": 0.0,
+      "plurality_vote_accuracy": 0.7883792048929663,
+      "plurality_vote_coverage": 0.9948012232415903,
+      "round": 3,
+      "samples": 3270
+    },
+    {
+      "agent_decisions": 13080,
+      "mean_agent_accuracy": 0.7912079510703364,
+      "mean_agent_parse_rate": 0.9971712538226299,
+      "mean_agent_truncation_rate": 0.0,
+      "plurality_vote_accuracy": 0.7908256880733945,
+      "plurality_vote_coverage": 0.9957186544342508,
+      "round": 4,
+      "samples": 3270
+    }
+  ],
+  "pipeline": "inference_baseline",
+  "protocol_version": "acccollab_inference_baselines_v1",
+  "schema_version": 1,
+  "stage_fingerprint": "520037ddbe82d15213a871329c6d208d2df5cbdc4c1aaa9bfd378fa39e9919c2",
+  "trials": 1
+}

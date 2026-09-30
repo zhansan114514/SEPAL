@@ -1,0 +1,20 @@
+{
+  "accuracy": 0.894870349492672,
+  "correct": 3175,
+  "dataset": "arc",
+  "decision_rule": "single_model_single_shot",
+  "method": "direct",
+  "model_name": "PROJECT_ROOT/models/Qwen2.5-3B-Instruct",
+  "model_type": "qwen2.5",
+  "parse_rate": 0.9983089064261556,
+  "parsed": 3542,
+  "pipeline": "inference_baseline",
+  "protocol_version": "acccollab_inference_baselines_v1",
+  "reused_from": "output/baselines/qwen2_5_3b_instruct/arc/debate/records.jsonl",
+  "samples": 3548,
+  "schema_version": 1,
+  "stage_fingerprint": "3c4748c434d6d6ac2a6d30431cbc718aa282249353999eea0de2a851db4bf892",
+  "trials": 1,
+  "truncated": 0,
+  "truncation_rate": 0.0
+}

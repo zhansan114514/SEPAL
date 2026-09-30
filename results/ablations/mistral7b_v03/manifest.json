@@ -1,0 +1,467 @@
+{
+  "created_at": "2026-08-26T16:03:21.366078+00:00",
+  "datasets": {
+    "arc": {
+      "expected_samples": 3548,
+      "logical_shards": 3,
+      "roles": {
+        "direct": {
+          "config": {
+            "path": "output/ablations/mistral_7b_instruct_v03_full5/resolved_configs/arc/direct.yaml",
+            "sha256": "c7eb77875dd61cdc2ab0bb799b3230fe509a101ccfe6ece137a21bec75907f63",
+            "size": 2683
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/mistral_7b_instruct_v03_eval_arc_trials5_singlebos/resolved_role_configs/direct.yaml",
+            "sha256": "603afda007cbbacb13b2edafda97f1dd0c94395959cffccb5a41c4637115eb53",
+            "size": 2793
+          }
+        },
+        "evidence": {
+          "config": {
+            "path": "output/ablations/mistral_7b_instruct_v03_full5/resolved_configs/arc/evidence.yaml",
+            "sha256": "f19819e57509c3a6d3c7587422aa618147939daff6938e6765e00d6f11e2097c",
+            "size": 2664
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/mistral_7b_instruct_v03_eval_arc_trials5_singlebos/resolved_role_configs/evidence.yaml",
+            "sha256": "6ac653a16b130a557029f6ea676b2ae4d7c32a27a0e4ab9b60806b175fae1854",
+            "size": 2776
+          }
+        },
+        "verification": {
+          "config": {
+            "path": "output/ablations/mistral_7b_instruct_v03_full5/resolved_configs/arc/verification.yaml",
+            "sha256": "accbda7f82a3da7f63f150f53709a2f99615b14cea4a39fbfd9a6b276f85da2d",
+            "size": 2718
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/mistral_7b_instruct_v03_eval_arc_trials5_singlebos/resolved_role_configs/verification.yaml",
+            "sha256": "dc555de5112091faf7ec4f1a195ec3f55fdac2d290cc9bf9b951761c0d36864e",
+            "size": 2834
+          }
+        }
+      }
+    },
+    "bbh": {
+      "expected_samples": 1260,
+      "logical_shards": 1,
+      "roles": {
+        "direct": {
+          "config": {
+            "path": "output/ablations/mistral_7b_instruct_v03_full5/resolved_configs/bbh/direct.yaml",
+            "sha256": "6af64be0d4cd2b5791ebff52c2495f59a9a72e5e4b01af357bee205dbe6b4fa7",
+            "size": 2683
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/mistral_7b_instruct_v03_eval_bbh_trials5_singlebos/resolved_role_configs/direct.yaml",
+            "sha256": "0179f2f7ef716d739844f1fd857b25b52a0baf224a62a5cf46c8eab012b18d31",
+            "size": 2793
+          }
+        },
+        "evidence": {
+          "config": {
+            "path": "output/ablations/mistral_7b_instruct_v03_full5/resolved_configs/bbh/evidence.yaml",
+            "sha256": "b273876d0e7a7f0e802e92fded53511971bc854ef2f90e1c9f7decb5f257080a",
+            "size": 2664
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/mistral_7b_instruct_v03_eval_bbh_trials5_singlebos/resolved_role_configs/evidence.yaml",
+            "sha256": "43135d63f4e5dd4849879bfe23eae932ae283be26934da59d86fe7117a5ffbb0",
+            "size": 2776
+          }
+        },
+        "verification": {
+          "config": {
+            "path": "output/ablations/mistral_7b_instruct_v03_full5/resolved_configs/bbh/verification.yaml",
+            "sha256": "d5a7329ce8112318507918f9f7f13ba7539b3296e37fe6844baea4f389bfc616",
+            "size": 2718
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/mistral_7b_instruct_v03_eval_bbh_trials5_singlebos/resolved_role_configs/verification.yaml",
+            "sha256": "cb9e85e8660a79c4a0515e678985a9a058a3f492c96c342c4d39338fbeb51b41",
+            "size": 2834
+          }
+        }
+      }
+    },
+    "boolq": {
+      "expected_samples": 3270,
+      "logical_shards": 3,
+      "roles": {
+        "direct": {
+          "config": {
+            "path": "output/ablations/mistral_7b_instruct_v03_full5/resolved_configs/boolq/direct.yaml",
+            "sha256": "84f4882827c39227aa45f4465f77d57700d12f726ce27d241744bc7fc9925eac",
+            "size": 2695
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/mistral_7b_instruct_v03_eval_boolq_trials5_singlebos/resolved_role_configs/direct.yaml",
+            "sha256": "793b63ac8627d886166abab62dede8c9feb918787537fe4919fda9348f83241f",
+            "size": 2805
+          }
+        },
+        "evidence": {
+          "config": {
+            "path": "output/ablations/mistral_7b_instruct_v03_full5/resolved_configs/boolq/evidence.yaml",
+            "sha256": "1e6ced5a7a941fea35b6177f6969746192ed8c4da532d32d7288964e67c5547b",
+            "size": 2676
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/mistral_7b_instruct_v03_eval_boolq_trials5_singlebos/resolved_role_configs/evidence.yaml",
+            "sha256": "d53a4730976f5ab818f4af75e099b807e37605683ffaaae4c436d29758001d97",
+            "size": 2788
+          }
+        },
+        "verification": {
+          "config": {
+            "path": "output/ablations/mistral_7b_instruct_v03_full5/resolved_configs/boolq/verification.yaml",
+            "sha256": "c7398681c1069df88f6315f53b9b28830913af45fb0f4c5269b6a29b49e861e5",
+            "size": 2730
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/mistral_7b_instruct_v03_eval_boolq_trials5_singlebos/resolved_role_configs/verification.yaml",
+            "sha256": "b8a2028c67baa316856c87cf105b60b01a4482d7c7f30a1fb848c590c399989d",
+            "size": 2846
+          }
+        }
+      }
+    },
+    "mmlu": {
+      "expected_samples": 14042,
+      "logical_shards": 4,
+      "roles": {
+        "direct": {
+          "config": {
+            "path": "output/ablations/mistral_7b_instruct_v03_full5/resolved_configs/mmlu/direct.yaml",
+            "sha256": "11d789d3b207f09750544671f64d3581ea67cb570178cd896c35a77df1e9eff2",
+            "size": 2713
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/resolved_role_configs/direct.yaml",
+            "sha256": "b7b5e14744ff7704784301a6ef0a958cd0ee7d3791a44ebc4114841961317f46",
+            "size": 2738
+          }
+        },
+        "evidence": {
+          "config": {
+            "path": "output/ablations/mistral_7b_instruct_v03_full5/resolved_configs/mmlu/evidence.yaml",
+            "sha256": "7e354b92155187681852a53597e7c10bd50feec5d24422aa47ded16708d8d632",
+            "size": 2694
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/resolved_role_configs/evidence.yaml",
+            "sha256": "b05eac2a3e7881c9ef16bfcf9643355fe40fed8555036f36e1a343f5399b861b",
+            "size": 2719
+          }
+        },
+        "verification": {
+          "config": {
+            "path": "output/ablations/mistral_7b_instruct_v03_full5/resolved_configs/mmlu/verification.yaml",
+            "sha256": "e00dfcf57d777b817092c9b1d8784ee622049f627fc8be9cee7b250a69bfa57b",
+            "size": 2748
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/resolved_role_configs/verification.yaml",
+            "sha256": "f69524c2d30c37607a2469c7533cad8e8a6214cb21421c284b75d95c1577ea29",
+            "size": 2773
+          }
+        }
+      }
+    },
+    "sciq": {
+      "expected_samples": 1000,
+      "logical_shards": 1,
+      "roles": {
+        "direct": {
+          "config": {
+            "path": "output/ablations/mistral_7b_instruct_v03_full5/resolved_configs/sciq/direct.yaml",
+            "sha256": "77234b8e90c9ed420c90ec786b42e741bd621342f083cd446410c3a85f8f3b64",
+            "size": 2681
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/mistral_7b_instruct_v03_eval_sciq_trials5_singlebos/resolved_role_configs/direct.yaml",
+            "sha256": "93b9ce83b592c2004d46c89fab987429c7c2dd185105191754b42ffd2bc0e0e1",
+            "size": 2791
+          }
+        },
+        "evidence": {
+          "config": {
+            "path": "output/ablations/mistral_7b_instruct_v03_full5/resolved_configs/sciq/evidence.yaml",
+            "sha256": "074f440b2f2effd85a70d5f91c73daa55586a75afbd91c6a95cb0b744f2bf015",
+            "size": 2662
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/mistral_7b_instruct_v03_eval_sciq_trials5_singlebos/resolved_role_configs/evidence.yaml",
+            "sha256": "16f8cf8db512e8d57e6eaba94d5d832f5d367bd2180bc7265a4780c64a4d43ab",
+            "size": 2774
+          }
+        },
+        "verification": {
+          "config": {
+            "path": "output/ablations/mistral_7b_instruct_v03_full5/resolved_configs/sciq/verification.yaml",
+            "sha256": "fefd11f66d8f47a67b694803c75f85b7bde7c9100b40810db0f8af6ccb0576ed",
+            "size": 2716
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/mistral_7b_instruct_v03_eval_sciq_trials5_singlebos/resolved_role_configs/verification.yaml",
+            "sha256": "730d3078dc7c826b329b63d7e9332b3c18e28902d3dfadae7a432d3eee57ffcc",
+            "size": 2832
+          }
+        }
+      }
+    }
+  },
+  "fingerprint": "703df23fe9226f97c4fc9b6f84b0df9148b8faf63dbc75e694b89c948fe89e85",
+  "implementation_version": "multi_acccollab_component_ablations_v1",
+  "model": {
+    "identity": {
+      "path": "PROJECT_ROOT/models/Mistral-7B-Instruct-v0.3",
+      "selected": {
+        "config.json": {
+          "sha256": "affafc6478ec0fd07a32f0ca57aa2fc57743f4d17d6730f86a96ac24d1507f99",
+          "size": 601
+        },
+        "generation_config.json": {
+          "sha256": "b4669f1b8f4185324bd9b12a69e85a1ad2289bc48111ef739cfaaea3bba6b0a9",
+          "size": 116
+        },
+        "model.safetensors.index.json": {
+          "sha256": "e489ba553b87cde188d921b1a8283c2e0b9d33d635b88147d96ff0fcd6250016",
+          "size": 23950
+        },
+        "tokenizer_config.json": {
+          "sha256": "0533dec9cfe319163801b6618d0f3ec9cfa126b6288e3df5deca6e32acb09cd2",
+          "size": 140874
+        }
+      },
+      "total_weight_bytes": 28992159440,
+      "weight_files": [
+        {
+          "name": "consolidated.safetensors",
+          "size": 14496078512
+        },
+        {
+          "name": "model-00001-of-00003.safetensors",
+          "size": 4949453792
+        },
+        {
+          "name": "model-00002-of-00003.safetensors",
+          "size": 4999819336
+        },
+        {
+          "name": "model-00003-of-00003.safetensors",
+          "size": 4546807800
+        }
+      ]
+    },
+    "key": "mistral_v03",
+    "path": "models/Mistral-7B-Instruct-v0.3",
+    "slug": "mistral_7b_instruct_v03",
+    "type": "mistral_v03"
+  },
+  "no_sft_role_configs": {
+    "direct": {
+      "path": "output/ablations/mistral_7b_instruct_v03_full5/no_sft/resolved_role_configs/direct.yaml",
+      "sha256": "4c07537c34c049fdc4babaa9c258234ac0ab2c278697892cb4e82ff907e03a7c",
+      "size": 2585
+    },
+    "evidence": {
+      "path": "output/ablations/mistral_7b_instruct_v03_full5/no_sft/resolved_role_configs/evidence.yaml",
+      "sha256": "689f446d597b800efc0b3917f214eeae25df303e566fec04e4f947e6fd298d50",
+      "size": 2564
+    },
+    "verification": {
+      "path": "output/ablations/mistral_7b_instruct_v03_full5/no_sft/resolved_role_configs/verification.yaml",
+      "sha256": "8cc7c25e9ee428454a5560b169a6e3b3a3f4d08436a2eba5b1a601d49c024dd4",
+      "size": 2614
+    }
+  },
+  "output_root": "output/ablations/mistral_7b_instruct_v03_full5",
+  "schema_version": 1,
+  "source": {
+    "primary_multi_output": "output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos",
+    "role_policies": {
+      "direct": {
+        "sft_actor_adapter": "output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/sft/adapters/direct_adapter",
+        "sft_actor_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/sft/adapters/direct_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "78508a9d6985ff0957df8064ce98ef5667e32d37c76df1e67f49f2f53b937e6f",
+              "size": 416
+            },
+            "adapter_config.json": {
+              "sha256": "35a3665e9c39fdf11e9f026c7f655b0380b2f03453c0fc27ce4562a4f2119db0",
+              "size": 1136
+            },
+            "adapter_model.safetensors": {
+              "sha256": "a89f690d4b3acbed6ff1a3d7b03ec1dc3bd5fe1329d0a2dd312699aec7768006",
+              "size": 2684416208
+            }
+          }
+        },
+        "source_final_registry": {
+          "path": "output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/roles/direct/registry/final.json",
+          "sha256": "bafb50eda2b81c5385f10d4efb715f2b1ddd7adc6c40b6ac4afc38227abe1785",
+          "size": 2240
+        },
+        "trained_critic_adapter": "output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/roles/direct/adapters/iteration_01/critic_adapter",
+        "trained_critic_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/roles/direct/adapters/iteration_01/critic_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "8e45a153296591d70256e4de346ea9dc27827a1dea2b608100f5926e0a12c6d5",
+              "size": 438
+            },
+            "adapter_config.json": {
+              "sha256": "0b5f41deab14ad534ec7f02104aacef24ec7751b247837452525448ac03942d3",
+              "size": 1136
+            },
+            "adapter_model.safetensors": {
+              "sha256": "5824c0bd83aef0a2cd957267010021f244288cd5aa5baf40c939b4cad2173638",
+              "size": 2684416208
+            }
+          }
+        }
+      },
+      "evidence": {
+        "sft_actor_adapter": "output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/sft/adapters/evidence_adapter",
+        "sft_actor_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/sft/adapters/evidence_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "c2be1e9b15aa75ecfbcf00c8afddd8b1b44734a5aa78480c7bba1d657bed8246",
+              "size": 418
+            },
+            "adapter_config.json": {
+              "sha256": "8e24929d0c3c850b54c60220ee4c1ebf946e2c350286800f4e8019dda598b160",
+              "size": 1136
+            },
+            "adapter_model.safetensors": {
+              "sha256": "86d1490923b10676057cd0336cdd4b7e5cb4a585e87d9409fbf28ecc7fd6e104",
+              "size": 2684416208
+            }
+          }
+        },
+        "source_final_registry": {
+          "path": "output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/roles/evidence/registry/final.json",
+          "sha256": "813065e32149b8e5f0341c98ce80114e3c563d3a00e9221290bc418e30599972",
+          "size": 2252
+        },
+        "trained_critic_adapter": "output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/roles/evidence/adapters/iteration_01/critic_adapter",
+        "trained_critic_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/roles/evidence/adapters/iteration_01/critic_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "deb2d64dc835abd117286a19e697c4434edbe56aed342a9edafd94f424acd897",
+              "size": 440
+            },
+            "adapter_config.json": {
+              "sha256": "bd63557ef752188d6fd29c95791cd5fe79f6bec827bbe8e1262e4e31fc0d29eb",
+              "size": 1136
+            },
+            "adapter_model.safetensors": {
+              "sha256": "e090f412a2884092776bebb00659b8020394aff8f0f9fafdbd58873f7413423b",
+              "size": 2684416208
+            }
+          }
+        }
+      },
+      "verification": {
+        "sft_actor_adapter": "output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/sft/adapters/verification_adapter",
+        "sft_actor_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/sft/adapters/verification_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "575b78f071c7fa37491d34a35fcd571bd16df9f29156b23a73a1d663724568a4",
+              "size": 422
+            },
+            "adapter_config.json": {
+              "sha256": "e3f7d763ae5092837fe5c2dc8554456a96d7eadbcf8f192288e0d861dab21e42",
+              "size": 1136
+            },
+            "adapter_model.safetensors": {
+              "sha256": "e8d9ee8c7a16f61b57385ee41ce75b15f813d2733199a12f64e32ed2c35745f4",
+              "size": 2684416208
+            }
+          }
+        },
+        "source_final_registry": {
+          "path": "output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/roles/verification/registry/final.json",
+          "sha256": "7c0d994e0d849545edb03d4634000f06cdde6617f0cd08d9497cea99a3741b37",
+          "size": 2276
+        },
+        "trained_critic_adapter": "output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/roles/verification/adapters/iteration_01/critic_adapter",
+        "trained_critic_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/roles/verification/adapters/iteration_01/critic_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "23ca18d5e8a2ba05c42bac3d7a99589f898faf781185f4e4a335a2426e61d46a",
+              "size": 444
+            },
+            "adapter_config.json": {
+              "sha256": "6a77d128a34fdc43255ada34111d4bf4ba27ebddccf9251415293b56f214e68b",
+              "size": 1136
+            },
+            "adapter_model.safetensors": {
+              "sha256": "39aa1da651ef987242c0215e4ed7ebd63a431afab3982c0946e929866df7e6a3",
+              "size": 2684416208
+            }
+          }
+        }
+      }
+    },
+    "sft_registry": {
+      "path": "output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/sft/registry.json",
+      "sha256": "3507cfa609d6c1aa06fbd37790a414012477b5dab04e9fb983cc470b55980333",
+      "size": 3331
+    }
+  },
+  "variants": {
+    "gpu": {
+      "no_sft_full": [
+        "boolq",
+        "sciq",
+        "bbh",
+        "arc",
+        "mmlu"
+      ],
+      "sft_base_critic": [
+        "boolq",
+        "sciq",
+        "bbh",
+        "arc",
+        "mmlu"
+      ],
+      "sft_only": [
+        "boolq",
+        "sciq",
+        "bbh",
+        "arc",
+        "mmlu"
+      ],
+      "sft_trained_critic": [
+        "boolq",
+        "sciq",
+        "bbh",
+        "arc",
+        "mmlu"
+      ]
+    },
+    "offline_from_full_records": [
+      "actor_dpo_only_round0",
+      "deliberation_rounds_0_to_4",
+      "per_role",
+      "majority",
+      "oracle_any_role",
+      "pair_agreement"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "accuracy": 0.773394495412844,
+  "correct": 2529,
+  "dataset": "boolq",
+  "decision_rule": "single_model_single_shot",
+  "method": "direct",
+  "model_name": "PROJECT_ROOT/models/Meta-Llama-3-8B-Instruct",
+  "model_type": "llama3",
+  "parse_rate": 0.9996941896024465,
+  "parsed": 3269,
+  "pipeline": "inference_baseline",
+  "protocol_version": "acccollab_inference_baselines_v1",
+  "reused_from": "output/baselines/llama3_8b_instruct/boolq/debate/records.jsonl",
+  "samples": 3270,
+  "schema_version": 1,
+  "stage_fingerprint": "57d6c53f8048e6574e64856c746d49a429ce9b49ebd89a12a452ec4afa4fb05d",
+  "trials": 1,
+  "truncated": 0,
+  "truncation_rate": 0.0
+}

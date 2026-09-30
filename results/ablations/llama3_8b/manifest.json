@@ -1,0 +1,455 @@
+{
+  "created_at": "2026-07-26T04:00:50.335125+00:00",
+  "datasets": {
+    "arc": {
+      "expected_samples": 3548,
+      "logical_shards": 3,
+      "roles": {
+        "direct": {
+          "config": {
+            "path": "output/ablations/llama3_8b_component_v1/resolved_configs/arc/direct.yaml",
+            "sha256": "5f1e27a145c7a29d8a6f196d18d87370d5528291c2d8fe405192bf34f21d1df5",
+            "size": 2627
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/llama3_8b_instruct_eval_arc/resolved_role_configs/direct.yaml",
+            "sha256": "d1bb8f7bdbc8641ab70d8ed267f147de4034373fa9783ba1325087d7ae1aec40",
+            "size": 2691
+          }
+        },
+        "evidence": {
+          "config": {
+            "path": "output/ablations/llama3_8b_component_v1/resolved_configs/arc/evidence.yaml",
+            "sha256": "38252da6e77286ee42a51a19ea0f8640dadec40c83f250c692989853fd511e02",
+            "size": 2608
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/llama3_8b_instruct_eval_arc/resolved_role_configs/evidence.yaml",
+            "sha256": "0def6966ebd6b52bc8a8bc980421720a62ba2f5170f040b6a7dc8feaa86fc150",
+            "size": 2674
+          }
+        },
+        "verification": {
+          "config": {
+            "path": "output/ablations/llama3_8b_component_v1/resolved_configs/arc/verification.yaml",
+            "sha256": "92a2e2df72000a1302ce567a47b00035069c6b54a62f317e794c096cd19caafb",
+            "size": 2662
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/llama3_8b_instruct_eval_arc/resolved_role_configs/verification.yaml",
+            "sha256": "1bea4cdcff680168200981331e885a5593c9d9909518548bbf576371af14b5db",
+            "size": 2732
+          }
+        }
+      }
+    },
+    "bbh": {
+      "expected_samples": 1260,
+      "logical_shards": 1,
+      "roles": {
+        "direct": {
+          "config": {
+            "path": "output/ablations/llama3_8b_component_v1/resolved_configs/bbh/direct.yaml",
+            "sha256": "4365dcea56a087f15d445870ee69947de6ebdab0d5dcc991a78cee02538d7f2c",
+            "size": 2627
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/llama3_8b_instruct_eval_bbh/resolved_role_configs/direct.yaml",
+            "sha256": "e828acb58b79392690c91cef4a8d1aea8e36ff29925b0e510c821d2e62f45cf6",
+            "size": 2691
+          }
+        },
+        "evidence": {
+          "config": {
+            "path": "output/ablations/llama3_8b_component_v1/resolved_configs/bbh/evidence.yaml",
+            "sha256": "0a83b59725fc65ed6a7cf4a51cf8f641647ca1ae8f0ab1bdca272f1afce5c886",
+            "size": 2608
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/llama3_8b_instruct_eval_bbh/resolved_role_configs/evidence.yaml",
+            "sha256": "044855c60abe8df7812373f4e1837801e48b688dc58e6cd15bab633b016bd0fd",
+            "size": 2674
+          }
+        },
+        "verification": {
+          "config": {
+            "path": "output/ablations/llama3_8b_component_v1/resolved_configs/bbh/verification.yaml",
+            "sha256": "80f9df4f162554c577ce12461f0ebfde1b8b2977ef84f6cd097e857e73d1689b",
+            "size": 2662
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/llama3_8b_instruct_eval_bbh/resolved_role_configs/verification.yaml",
+            "sha256": "eedb8893a719480ae05a73e4c222f71c52adaeb60be0daa177811ec4ec6bdec5",
+            "size": 2732
+          }
+        }
+      }
+    },
+    "boolq": {
+      "expected_samples": 3270,
+      "logical_shards": 3,
+      "roles": {
+        "direct": {
+          "config": {
+            "path": "output/ablations/llama3_8b_component_v1/resolved_configs/boolq/direct.yaml",
+            "sha256": "c619cd6a3c7f8f67bd03cdc597e8ee7bc65113c213ab5f328cb2272346eae167",
+            "size": 2623
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/llama3_8b_instruct_eval_boolq/resolved_role_configs/direct.yaml",
+            "sha256": "60d8e6c331428775be2f9ddc8635c21b241d13406b334edfea6e6c60b0e01c8a",
+            "size": 2625
+          }
+        },
+        "evidence": {
+          "config": {
+            "path": "output/ablations/llama3_8b_component_v1/resolved_configs/boolq/evidence.yaml",
+            "sha256": "40c246bf80476bb67b573d1ce26dfe684277461d445862bc289147210557f57f",
+            "size": 2604
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/llama3_8b_instruct_eval_boolq/resolved_role_configs/evidence.yaml",
+            "sha256": "e6e3b4b124047648004fb98daad78431626ecded9389dc9336e5c59cf3599440",
+            "size": 2608
+          }
+        },
+        "verification": {
+          "config": {
+            "path": "output/ablations/llama3_8b_component_v1/resolved_configs/boolq/verification.yaml",
+            "sha256": "48737b2e60125f56275611cff12c1cf49c7af0b1e855a6373e0b7ec5eaa2b142",
+            "size": 2658
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/llama3_8b_instruct_eval_boolq/resolved_role_configs/verification.yaml",
+            "sha256": "59065a66360a99861bc632db5d638d23907225ca03cfa41cef3edab1ca784802",
+            "size": 2666
+          }
+        }
+      }
+    },
+    "mmlu": {
+      "expected_samples": 14042,
+      "logical_shards": 4,
+      "roles": {
+        "direct": {
+          "config": {
+            "path": "output/ablations/llama3_8b_component_v1/resolved_configs/mmlu/direct.yaml",
+            "sha256": "2db4adc99b2663220f0365d9a5487d356615527aa1753d80a96b9bbb02f9af6e",
+            "size": 2623
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/resolved_role_configs/direct.yaml",
+            "sha256": "ba0fb926dd01e12ed67100268408e39492f72a84096d62a819499d047cc123ff",
+            "size": 2563
+          }
+        },
+        "evidence": {
+          "config": {
+            "path": "output/ablations/llama3_8b_component_v1/resolved_configs/mmlu/evidence.yaml",
+            "sha256": "a47239a235e759acf815e341eb7235c88e4a682163dac5b0b35440e1ff955154",
+            "size": 2604
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/resolved_role_configs/evidence.yaml",
+            "sha256": "56a130e6efc7a55d6282ff5bcd4d15f506da5b60640a7f0d0169064dc21babb0",
+            "size": 2544
+          }
+        },
+        "verification": {
+          "config": {
+            "path": "output/ablations/llama3_8b_component_v1/resolved_configs/mmlu/verification.yaml",
+            "sha256": "6d4e24ad0d20a2aa73de153bd170d79e21ab5f85fd43bd9a65fb218077815ca2",
+            "size": 2658
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/resolved_role_configs/verification.yaml",
+            "sha256": "d1519937f48be27e065a671e88a54f6f06d3a025ada0f98d9d8d623cca4962d0",
+            "size": 2598
+          }
+        }
+      }
+    },
+    "sciq": {
+      "expected_samples": 1000,
+      "logical_shards": 1,
+      "roles": {
+        "direct": {
+          "config": {
+            "path": "output/ablations/llama3_8b_component_v1/resolved_configs/sciq/direct.yaml",
+            "sha256": "a25db757cd8bd33902719427c56fef7b7d57fd849153143fba8a003bd3ca95ff",
+            "size": 2608
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/llama3_8b_instruct_eval_sciq/resolved_role_configs/direct.yaml",
+            "sha256": "ccc92638a805e240af004d8cd74fd9682190844a1ac9cafff66885d7e52a1a85",
+            "size": 2610
+          }
+        },
+        "evidence": {
+          "config": {
+            "path": "output/ablations/llama3_8b_component_v1/resolved_configs/sciq/evidence.yaml",
+            "sha256": "a3ce1c2d600920d8b206741e517e98a4c522bddcf3d539fb831f52a7347bf020",
+            "size": 2589
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/llama3_8b_instruct_eval_sciq/resolved_role_configs/evidence.yaml",
+            "sha256": "888464fa8cd42005e91eb4405aa7897e9d9e6820c39d6eae51550803027e5578",
+            "size": 2593
+          }
+        },
+        "verification": {
+          "config": {
+            "path": "output/ablations/llama3_8b_component_v1/resolved_configs/sciq/verification.yaml",
+            "sha256": "a4465f37e8d3b5a48ef48bd4422a2220383f71c1bc384946da08768209e5afe7",
+            "size": 2643
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/llama3_8b_instruct_eval_sciq/resolved_role_configs/verification.yaml",
+            "sha256": "fe242487df578b1d8b07276da654be67cf1c3eea795aace3ba55361fbed85a45",
+            "size": 2651
+          }
+        }
+      }
+    }
+  },
+  "fingerprint": "037dc700957578724fe1145706f3158ff78c7c638261ef92965ea161105abc6d",
+  "implementation_version": "multi_acccollab_component_ablations_v1",
+  "model": {
+    "identity": {
+      "path": "PROJECT_ROOT/models/Meta-Llama-3-8B-Instruct",
+      "selected": {
+        "config.json": {
+          "sha256": "61f3de03a16ca8046b05dc777bce72717022bc8522152eee61a69072272ef54b",
+          "size": 654
+        },
+        "generation_config.json": {
+          "sha256": "d1af74d8ba49428ab2faa65f7948165cc6bf52b740e57e840f8af772587c894c",
+          "size": 187
+        },
+        "model.safetensors.index.json": {
+          "sha256": "146776fce3f6db1103aa6f249e65ee5544c5923ce6f971b092eee79aa6e5d37b",
+          "size": 23950
+        },
+        "tokenizer_config.json": {
+          "sha256": "da0e3a7cce6e4d787e85eb1c24d548420e0d7fe2c7a214e192795c46e40d75bb",
+          "size": 50977
+        }
+      },
+      "total_weight_bytes": 16060556376,
+      "weight_files": [
+        {
+          "name": "model-00001-of-00004.safetensors",
+          "size": 4976698672
+        },
+        {
+          "name": "model-00002-of-00004.safetensors",
+          "size": 4999802720
+        },
+        {
+          "name": "model-00003-of-00004.safetensors",
+          "size": 4915916176
+        },
+        {
+          "name": "model-00004-of-00004.safetensors",
+          "size": 1168138808
+        }
+      ]
+    },
+    "key": "llama3",
+    "path": "models/Meta-Llama-3-8B-Instruct",
+    "slug": "llama3_8b_instruct",
+    "type": "llama3"
+  },
+  "no_sft_role_configs": {
+    "direct": {
+      "path": "output/ablations/llama3_8b_component_v1/no_sft/resolved_role_configs/direct.yaml",
+      "sha256": "8f7c62f301796d34db145223b3a54a1e3c96aa7e249877425166b66fd687c977",
+      "size": 2552
+    },
+    "evidence": {
+      "path": "output/ablations/llama3_8b_component_v1/no_sft/resolved_role_configs/evidence.yaml",
+      "sha256": "752903aaf9de71795ed11352a9c8445d47e54186a53809f0cd9c01cdb6185194",
+      "size": 2531
+    },
+    "verification": {
+      "path": "output/ablations/llama3_8b_component_v1/no_sft/resolved_role_configs/verification.yaml",
+      "sha256": "aadbe1674297fcbd2cd59a030c6e3034e514c711dfad962dfd6913d2eb54b14f",
+      "size": 2581
+    }
+  },
+  "output_root": "output/ablations/llama3_8b_component_v1",
+  "schema_version": 1,
+  "source": {
+    "primary_multi_output": "output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k",
+    "role_policies": {
+      "direct": {
+        "sft_actor_adapter": "output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/sft/adapters/direct_adapter",
+        "sft_actor_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/sft/adapters/direct_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "26f7f213be78b4222c1b4b45bc985c5ce1756f2f7509f5af78a76b08c0726927",
+              "size": 393
+            },
+            "adapter_config.json": {
+              "sha256": "f792530e04a3d26172d46f999381e16d255dc0fe72c54cdb98e3aca05a9c087c",
+              "size": 1136
+            },
+            "adapter_model.safetensors": {
+              "sha256": "955dcf125cccf868568e8dada6c01e59e854ba246f330df99eb63143ee4d8da5",
+              "size": 2684416208
+            }
+          }
+        },
+        "source_final_registry": {
+          "path": "output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/roles/direct/registry/final.json",
+          "sha256": "3267650fe3b3660e0d781875f1001b71eed09af700677e16e28a0c233d91c52c",
+          "size": 2102
+        },
+        "trained_critic_adapter": "output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/roles/direct/adapters/iteration_01/critic_adapter",
+        "trained_critic_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/roles/direct/adapters/iteration_01/critic_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "ed0fdddbcb5e533bae1aa600bf93c99b78867e01b60b33b4e8cb500d38b38a2a",
+              "size": 415
+            },
+            "adapter_config.json": {
+              "sha256": "7fb2e7c8d85ff338539bdbd80daed7ed0532b10f4ac59445be463d894756e75f",
+              "size": 1136
+            },
+            "adapter_model.safetensors": {
+              "sha256": "bf0e90523dd0d6ef41e80a84bf6db3ca7db58deca3423f563d4f15685613340d",
+              "size": 2684416208
+            }
+          }
+        }
+      },
+      "evidence": {
+        "sft_actor_adapter": "output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/sft/adapters/evidence_adapter",
+        "sft_actor_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/sft/adapters/evidence_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "b887a2c881e380505e2640e8aaa1d9c844ba6e2db5f7b205fb9e7059f4318c1e",
+              "size": 395
+            },
+            "adapter_config.json": {
+              "sha256": "0c46fc8518b16ca8f73845f70266dbff8fd8b9fb3d6581b4d76085cd8d98052c",
+              "size": 1136
+            },
+            "adapter_model.safetensors": {
+              "sha256": "68a272695a9cb926051e1f22ad58f54b4c5240492f8c28ed43a0474b01e1aefe",
+              "size": 2684416208
+            }
+          }
+        },
+        "source_final_registry": {
+          "path": "output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/roles/evidence/registry/final.json",
+          "sha256": "fbd9f0fa6906dadf945e7d4655b862be83569a13aaaadd57faff992cfef56da0",
+          "size": 2114
+        },
+        "trained_critic_adapter": "output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/roles/evidence/adapters/iteration_01/critic_adapter",
+        "trained_critic_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/roles/evidence/adapters/iteration_01/critic_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "0817d29ae3b1a6f1aa6e1bf19f89880f518c6f1bceaf69bd9507f5503751fdea",
+              "size": 417
+            },
+            "adapter_config.json": {
+              "sha256": "5f3ee09ff48c9859123fab5b2d1c61a8d3aeb6403af9825e798259a735406d8c",
+              "size": 1136
+            },
+            "adapter_model.safetensors": {
+              "sha256": "b33f3f7db9914669f745231eeae8b2a49547c28d07e81e1037d0bb88b3481871",
+              "size": 2684416208
+            }
+          }
+        }
+      },
+      "verification": {
+        "sft_actor_adapter": "output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/sft/adapters/verification_adapter",
+        "sft_actor_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/sft/adapters/verification_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "67d6f7421de771ce01af5e41883fad1b967941945b379fbbd107ad88813cff2d",
+              "size": 399
+            },
+            "adapter_config.json": {
+              "sha256": "03f0b6891e02c07b9363d905f619d967d5ae849effb6330e9abb8f60adb564af",
+              "size": 1136
+            },
+            "adapter_model.safetensors": {
+              "sha256": "7877b57c2eab4f0a9e2e66c1666bd47068d1a98cd38096a49f01bfc0da519e84",
+              "size": 2684416208
+            }
+          }
+        },
+        "source_final_registry": {
+          "path": "output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/roles/verification/registry/final.json",
+          "sha256": "375ccea850070cb168e0faae82e9c48f271d894c59586fb76631d7f160ff2ace",
+          "size": 2138
+        },
+        "trained_critic_adapter": "output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/roles/verification/adapters/iteration_01/critic_adapter",
+        "trained_critic_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/roles/verification/adapters/iteration_01/critic_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "2b93e940a663e3d6e35ee1f17d5ef50997d877114f061a8c6273d9eb893d1094",
+              "size": 421
+            },
+            "adapter_config.json": {
+              "sha256": "8af22494b7fa9904ac14fcf392ed4086640f10fe940c6a2f489f992cb0621575",
+              "size": 1136
+            },
+            "adapter_model.safetensors": {
+              "sha256": "2debdc071e101d48124e850f158e5638204c90e23fba7a1ceea625aa330def8f",
+              "size": 2684416208
+            }
+          }
+        }
+      }
+    },
+    "sft_registry": {
+      "path": "output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/sft/registry.json",
+      "sha256": "5ca9a97ff8cccd217f47e851222d4caa9204eb46c9b2d5fdf0e0c701dcf25413",
+      "size": 3193
+    }
+  },
+  "variants": {
+    "gpu": {
+      "no_sft_full": [
+        "mmlu"
+      ],
+      "sft_base_critic": [
+        "mmlu"
+      ],
+      "sft_only": [
+        "boolq",
+        "sciq",
+        "bbh",
+        "arc",
+        "mmlu"
+      ],
+      "sft_trained_critic": [
+        "mmlu"
+      ]
+    },
+    "offline_from_full_records": [
+      "actor_dpo_only_round0",
+      "deliberation_rounds_0_to_4",
+      "per_role",
+      "majority",
+      "oracle_any_role",
+      "pair_agreement"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "agents": 2,
+  "dataset": "sciq",
+  "decision_rule": "mean_final_agent_accuracy",
+  "final": {
+    "accuracy": 0.8685,
+    "agent_decisions": 2000,
+    "mean_agent_accuracy": 0.8685,
+    "mean_agent_parse_rate": 0.998,
+    "mean_agent_truncation_rate": 0.0,
+    "plurality_vote_accuracy": 0.868,
+    "plurality_vote_coverage": 0.997,
+    "round": 4,
+    "samples": 1000,
+    "source": "round_4_mean_agent_accuracy"
+  },
+  "method": "som_2x",
+  "model_name": "PROJECT_ROOT/models/Mistral-7B-Instruct-v0.3",
+  "model_type": "mistral_v03",
+  "per_round": [
+    {
+      "agent_decisions": 2000,
+      "mean_agent_accuracy": 0.847,
+      "mean_agent_parse_rate": 0.9975,
+      "mean_agent_truncation_rate": 0.0,
+      "plurality_vote_accuracy": 0.844,
+      "plurality_vote_coverage": 0.988,
+      "round": 0,
+      "samples": 1000
+    },
+    {
+      "agent_decisions": 2000,
+      "mean_agent_accuracy": 0.861,
+      "mean_agent_parse_rate": 0.997,
+      "mean_agent_truncation_rate": 0.0,
+      "plurality_vote_accuracy": 0.86,
+      "plurality_vote_coverage": 0.994,
+      "round": 1,
+      "samples": 1000
+    },
+    {
+      "agent_decisions": 2000,
+      "mean_agent_accuracy": 0.862,
+      "mean_agent_parse_rate": 0.9965,
+      "mean_agent_truncation_rate": 0.0,
+      "plurality_vote_accuracy": 0.861,
+      "plurality_vote_coverage": 0.995,
+      "round": 2,
+      "samples": 1000
+    },
+    {
+      "agent_decisions": 2000,
+      "mean_agent_accuracy": 0.864,
+      "mean_agent_parse_rate": 0.997,
+      "mean_agent_truncation_rate": 0.0,
+      "plurality_vote_accuracy": 0.864,
+      "plurality_vote_coverage": 0.997,
+      "round": 3,
+      "samples": 1000
+    },
+    {
+      "agent_decisions": 2000,
+      "mean_agent_accuracy": 0.8685,
+      "mean_agent_parse_rate": 0.998,
+      "mean_agent_truncation_rate": 0.0,
+      "plurality_vote_accuracy": 0.868,
+      "plurality_vote_coverage": 0.997,
+      "round": 4,
+      "samples": 1000
+    }
+  ],
+  "pipeline": "inference_baseline",
+  "protocol_version": "acccollab_inference_baselines_v1",
+  "schema_version": 1,
+  "stage_fingerprint": "3223e4b51ad5e120e06f84a2e6cd736ba49107ee579c6353d23f1abe1d31f4b6",
+  "trials": 1
+}

@@ -1,0 +1,237 @@
+{
+  "answer_extractor_sha256": "ecc5899445dc3c1764dad321b8bc91feabd4f865c601976896657b2c540b14c1",
+  "dataset": "bbh",
+  "decision_rule": "round_majority_then_fixed_direct",
+  "fingerprint": "4932e2d44883bced8a624176fe000ee837144df9944d26ced6360fc81a620bfd",
+  "headline": {
+    "accuracy": 0.5642857142857143,
+    "fallback_accuracy": 0.21379310344827587,
+    "fallback_rate": 0.11507936507936507,
+    "majority_conditional_accuracy": 0.6098654708520179,
+    "majority_coverage": 0.8849206349206349,
+    "oracle_any_role_accuracy": 0.7555555555555555,
+    "parse_rate": 1.0,
+    "per_role": {
+      "direct": {
+        "accuracy": 0.5253968253968254,
+        "parse_rate": 1.0,
+        "truncation_rate": 0.0
+      },
+      "evidence": {
+        "accuracy": 0.5436507936507936,
+        "parse_rate": 0.9984126984126984,
+        "truncation_rate": 0.0
+      },
+      "verification": {
+        "accuracy": 0.546031746031746,
+        "parse_rate": 0.9968253968253968,
+        "truncation_rate": 0.0
+      }
+    },
+    "round": 4,
+    "samples": 1260,
+    "unanimous_rate": 0.42777777777777776
+  },
+  "implementation_version": "multi_acccollab_policy_lattice_v1",
+  "pair_agreement": {
+    "direct+evidence": {
+      "agree": 728,
+      "agree_correct": 490,
+      "conditional_accuracy": 0.6730769230769231,
+      "coverage": 0.5777777777777777
+    },
+    "direct+verification": {
+      "agree": 728,
+      "agree_correct": 493,
+      "conditional_accuracy": 0.6771978021978022,
+      "coverage": 0.5777777777777777
+    },
+    "evidence+verification": {
+      "agree": 737,
+      "agree_correct": 503,
+      "conditional_accuracy": 0.6824966078697422,
+      "coverage": 0.584920634920635
+    }
+  },
+  "per_round": [
+    {
+      "accuracy": 0.5365079365079365,
+      "fallback_accuracy": 0.2357142857142857,
+      "fallback_rate": 0.1111111111111111,
+      "majority_conditional_accuracy": 0.5741071428571428,
+      "majority_coverage": 0.8888888888888888,
+      "oracle_any_role_accuracy": 0.7111111111111111,
+      "parse_rate": 0.9976190476190476,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.4984126984126984,
+          "parse_rate": 0.9952380952380953,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.5190476190476191,
+          "parse_rate": 0.9944444444444445,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.5126984126984127,
+          "parse_rate": 0.996031746031746,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 0,
+      "samples": 1260,
+      "unanimous_rate": 0.44047619047619047
+    },
+    {
+      "accuracy": 0.5547619047619048,
+      "fallback_accuracy": 0.21374045801526717,
+      "fallback_rate": 0.10396825396825397,
+      "majority_conditional_accuracy": 0.5943312666076174,
+      "majority_coverage": 0.8960317460317461,
+      "oracle_any_role_accuracy": 0.7436507936507937,
+      "parse_rate": 0.9976190476190476,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.5246031746031746,
+          "parse_rate": 0.9968253968253968,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.5301587301587302,
+          "parse_rate": 0.9984126984126984,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.5261904761904762,
+          "parse_rate": 0.9968253968253968,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 1,
+      "samples": 1260,
+      "unanimous_rate": 0.4150793650793651
+    },
+    {
+      "accuracy": 0.5571428571428572,
+      "fallback_accuracy": 0.20422535211267606,
+      "fallback_rate": 0.1126984126984127,
+      "majority_conditional_accuracy": 0.6019677996422182,
+      "majority_coverage": 0.8873015873015873,
+      "oracle_any_role_accuracy": 0.7492063492063492,
+      "parse_rate": 0.9992063492063492,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.5261904761904762,
+          "parse_rate": 0.9992063492063492,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.5396825396825397,
+          "parse_rate": 0.9992063492063492,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.5365079365079365,
+          "parse_rate": 0.9976190476190476,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 2,
+      "samples": 1260,
+      "unanimous_rate": 0.4261904761904762
+    },
+    {
+      "accuracy": 0.5531746031746032,
+      "fallback_accuracy": 0.19310344827586207,
+      "fallback_rate": 0.11507936507936507,
+      "majority_conditional_accuracy": 0.6,
+      "majority_coverage": 0.8849206349206349,
+      "oracle_any_role_accuracy": 0.7579365079365079,
+      "parse_rate": 1.0,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.5261904761904762,
+          "parse_rate": 1.0,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.5428571428571428,
+          "parse_rate": 0.9968253968253968,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.5428571428571428,
+          "parse_rate": 0.9984126984126984,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 3,
+      "samples": 1260,
+      "unanimous_rate": 0.42698412698412697
+    },
+    {
+      "accuracy": 0.5642857142857143,
+      "fallback_accuracy": 0.21379310344827587,
+      "fallback_rate": 0.11507936507936507,
+      "majority_conditional_accuracy": 0.6098654708520179,
+      "majority_coverage": 0.8849206349206349,
+      "oracle_any_role_accuracy": 0.7555555555555555,
+      "parse_rate": 1.0,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.5253968253968254,
+          "parse_rate": 1.0,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.5436507936507936,
+          "parse_rate": 0.9984126984126984,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.546031746031746,
+          "parse_rate": 0.9968253968253968,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 4,
+      "samples": 1260,
+      "unanimous_rate": 0.42777777777777776
+    }
+  ],
+  "pipeline": "multi_acccollab_ablation",
+  "rescored_from_raw_response": true,
+  "role_records": {
+    "direct": {
+      "path": "PROJECT_ROOT/output/ablations/qwen25_3b_component_v1/policy_lattice/bbh/sft_base_critic/roles/direct/records.jsonl",
+      "sha256": "1292dd3dc184eac63a3b904252bf1d0e31f0f0d4dff8e2ed26b76761e531d727"
+    },
+    "evidence": {
+      "path": "PROJECT_ROOT/output/ablations/qwen25_3b_component_v1/policy_lattice/bbh/sft_base_critic/roles/evidence/records.jsonl",
+      "sha256": "0988cab5f05360e4b2eb7ee475e583bad0291ddb768e43da0903667b7278b219"
+    },
+    "verification": {
+      "path": "PROJECT_ROOT/output/ablations/qwen25_3b_component_v1/policy_lattice/bbh/sft_base_critic/roles/verification/records.jsonl",
+      "sha256": "1c26bd11f4f550b1fca1f1716e676cd50726720b89146021f08ce04e1c1d3003"
+    }
+  },
+  "roles": [
+    "direct",
+    "evidence",
+    "verification"
+  ],
+  "samples": 1260,
+  "schema_version": 1,
+  "source_sha256": {
+    "src/ablations/policy_lattice.py": "2226e636f79fcf8a288f4e8cd1fd48d67e1f07dd90b4c4e3ab31b0a24bf35d41",
+    "src/acccollab/evaluation.py": "4ad0b2a6f74b7f5b5e9463c4aab92b0fbcb86bd5c3ab8a3a0e1539cb48f0aa6c",
+    "src/acccollab/generation.py": "d7b2ee834fc9ef863a299a2032a05c4d052b240e0762e87b309408360119293c",
+    "src/acccollab/policy.py": "292dda79ae833647fe79004a79a580e39b2c4f22f1440eb34ec0f25fb32f4d4d",
+    "src/acccollab/prompts.py": "5677565cda96ab7bcaf3f7bd10f1b6724392083e69156806805538607e7b88b2",
+    "src/inference/vllm_server.py": "bb42973779d96cf095f53fba0ac54c62f678dd112155c85ff40c40e41962fba9",
+    "src/parsing/answer_extractor.py": "ecc5899445dc3c1764dad321b8bc91feabd4f865c601976896657b2c540b14c1"
+  },
+  "uses_judge": false,
+  "variant": "sft_base_critic"
+}

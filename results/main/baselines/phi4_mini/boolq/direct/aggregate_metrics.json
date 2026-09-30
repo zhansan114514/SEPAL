@@ -1,0 +1,20 @@
+{
+  "accuracy": 0.7030581039755351,
+  "correct": 2299,
+  "dataset": "boolq",
+  "decision_rule": "single_model_single_shot",
+  "method": "direct",
+  "model_name": "PROJECT_ROOT/models/Phi-4-mini-instruct",
+  "model_type": "phi4",
+  "parse_rate": 1.0,
+  "parsed": 3270,
+  "pipeline": "inference_baseline",
+  "protocol_version": "acccollab_inference_baselines_v1",
+  "reused_from": "output/baselines/phi4_mini_instruct/boolq/debate/records.jsonl",
+  "samples": 3270,
+  "schema_version": 1,
+  "stage_fingerprint": "b271b6db03da51e81f0de01154c5badbfe0e69a0e00ba64b5cf824b5b9bf9ce9",
+  "trials": 1,
+  "truncated": 0,
+  "truncation_rate": 0.0
+}

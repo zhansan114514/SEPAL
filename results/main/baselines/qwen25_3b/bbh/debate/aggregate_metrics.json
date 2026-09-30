@@ -1,0 +1,75 @@
+{
+  "dataset": "bbh",
+  "decision_rule": "single_final_actor_answer",
+  "final": {
+    "accuracy": 0.49603174603174605,
+    "correct": 625,
+    "parse_rate": 0.9912698412698413,
+    "parsed": 1249,
+    "round": 4,
+    "samples": 1260,
+    "source": "round_4_single_actor",
+    "truncated": 0,
+    "truncation_rate": 0.0
+  },
+  "method": "actor_critic_debate",
+  "model_name": "PROJECT_ROOT/models/Qwen2.5-3B-Instruct",
+  "model_type": "qwen2.5",
+  "per_round": [
+    {
+      "accuracy": 0.5087301587301587,
+      "correct": 641,
+      "parse_rate": 0.9912698412698413,
+      "parsed": 1249,
+      "round": 0,
+      "samples": 1260,
+      "truncated": 0,
+      "truncation_rate": 0.0
+    },
+    {
+      "accuracy": 0.5055555555555555,
+      "correct": 637,
+      "parse_rate": 0.9936507936507937,
+      "parsed": 1252,
+      "round": 1,
+      "samples": 1260,
+      "truncated": 0,
+      "truncation_rate": 0.0
+    },
+    {
+      "accuracy": 0.49603174603174605,
+      "correct": 625,
+      "parse_rate": 0.9936507936507937,
+      "parsed": 1252,
+      "round": 2,
+      "samples": 1260,
+      "truncated": 0,
+      "truncation_rate": 0.0
+    },
+    {
+      "accuracy": 0.49682539682539684,
+      "correct": 626,
+      "parse_rate": 0.9944444444444445,
+      "parsed": 1253,
+      "round": 3,
+      "samples": 1260,
+      "truncated": 0,
+      "truncation_rate": 0.0
+    },
+    {
+      "accuracy": 0.49603174603174605,
+      "correct": 625,
+      "parse_rate": 0.9912698412698413,
+      "parsed": 1249,
+      "round": 4,
+      "samples": 1260,
+      "truncated": 0,
+      "truncation_rate": 0.0
+    }
+  ],
+  "pipeline": "inference_baseline",
+  "protocol_version": "acccollab_inference_baselines_v1",
+  "schema_version": 1,
+  "stage_fingerprint": "95f3e4e0cd72d424838292c04550ce591aa733dd4343d990cb83e09106f559f7",
+  "trials": 1
+}

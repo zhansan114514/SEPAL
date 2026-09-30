@@ -1,0 +1,75 @@
+{
+  "dataset": "boolq",
+  "decision_rule": "single_final_actor_answer",
+  "final": {
+    "accuracy": 0.7984709480122324,
+    "correct": 2611,
+    "parse_rate": 0.9984709480122325,
+    "parsed": 3265,
+    "round": 4,
+    "samples": 3270,
+    "source": "round_4_single_actor",
+    "truncated": 0,
+    "truncation_rate": 0.0
+  },
+  "method": "actor_critic_debate",
+  "model_name": "PROJECT_ROOT/models/gemma-2-2b-it",
+  "model_type": "gemma2",
+  "per_round": [
+    {
+      "accuracy": 0.7146788990825688,
+      "correct": 2337,
+      "parse_rate": 0.9996941896024465,
+      "parsed": 3269,
+      "round": 0,
+      "samples": 3270,
+      "truncated": 0,
+      "truncation_rate": 0.0
+    },
+    {
+      "accuracy": 0.7685015290519878,
+      "correct": 2513,
+      "parse_rate": 0.9975535168195718,
+      "parsed": 3262,
+      "round": 1,
+      "samples": 3270,
+      "truncated": 0,
+      "truncation_rate": 0.0
+    },
+    {
+      "accuracy": 0.7877675840978593,
+      "correct": 2576,
+      "parse_rate": 0.9984709480122325,
+      "parsed": 3265,
+      "round": 2,
+      "samples": 3270,
+      "truncated": 0,
+      "truncation_rate": 0.0
+    },
+    {
+      "accuracy": 0.7969418960244649,
+      "correct": 2606,
+      "parse_rate": 0.998165137614679,
+      "parsed": 3264,
+      "round": 3,
+      "samples": 3270,
+      "truncated": 0,
+      "truncation_rate": 0.0
+    },
+    {
+      "accuracy": 0.7984709480122324,
+      "correct": 2611,
+      "parse_rate": 0.9984709480122325,
+      "parsed": 3265,
+      "round": 4,
+      "samples": 3270,
+      "truncated": 0,
+      "truncation_rate": 0.0
+    }
+  ],
+  "pipeline": "inference_baseline",
+  "protocol_version": "acccollab_inference_baselines_v1",
+  "schema_version": 1,
+  "stage_fingerprint": "47d720fad83cb2ad1ec7a1755712fc3f7ea86c73bb90bc12819625c3a0fdd297",
+  "trials": 1
+}

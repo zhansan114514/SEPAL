@@ -1,0 +1,106 @@
+run:
+  name: multi_acccollab_qwen2_5_3b_instruct_eval_bbh_verification
+  output_dir: output/multi_acccollab/qwen2_5_3b_instruct_eval_bbh/roles/verification
+  seed: 20042
+model:
+  name: PROJECT_ROOT/models/Qwen2.5-3B-Instruct
+  type: qwen2.5
+  dtype: bfloat16
+  max_model_len: 8192
+  language_model_only: false
+method:
+  alternating_iterations: 1
+  deliberation_rounds: 5
+  training_order: critic_then_actor
+  reward_estimator: one_step_mc
+  pair_rule: paper_eq5_if_elif
+data:
+  dataset: bbh
+  preference:
+    split: validation
+    samples: 1
+    strategy: random
+    expected_samples: 1
+    sampling_seed: 42
+  eval:
+    split: test
+    samples: null
+    strategy: full
+    expected_samples: 1260
+    sampling_seed: 42
+  mmlu_load_mode: all
+  benchmark_data_dir: benchmark_data/acccollab_paper
+  preference_trials: 1
+runtime:
+  generation_devices:
+  - 2
+  training_devices:
+  - 2
+  gpu_memory_utilization: 0.9
+  enable_prefix_caching: true
+  enforce_eager: false
+  disable_lora_cudagraph: true
+  gdn_prefill_backend: null
+  max_num_batched_tokens: 32768
+  max_num_seqs: 256
+  batch:
+    preference_generation: 16
+    evaluation: 128
+tokens:
+  actor: 1024
+  critic: 1024
+  dpo_max_length: 4096
+  dpo_prompt: 3072
+  dpo_completion: 1024
+generation:
+  train_temperature: 0.7
+  eval_temperature: 0.7
+  top_p: 0.9
+  thinking:
+    train: false
+    eval: false
+  truncation:
+    warn_rate: 0.001
+    fail_rate: 0.01
+    fail_on_excess: false
+reward:
+  rollouts: 10
+  epsilon: 0.6
+  min_pairs_per_stage: 256
+training:
+  lora:
+    r: 256
+    alpha: 512
+  dpo:
+    learning_rate: 1.41e-05
+    batch_size: 4
+    gradient_accumulation_steps: 1
+    epochs: 3
+    beta: 0.1
+    loss_type: sigmoid
+    nll_weight: 1.0
+    warmup_ratio: 0.03
+    weight_decay: 0.1
+    max_grad_norm: 0.3
+    optim: adamw_torch
+    gradient_checkpointing: true
+    timeout_per_1k: 3600
+    checkpoint_steps: 50
+    checkpoint_total_limit: 1
+    resume_from_checkpoint: true
+    resume_optimizer_state: true
+evaluation:
+  trials: 1
+  policy_output_dir: null
+initialization:
+  actor_adapter: output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/sft/adapters/verification_adapter
+  critic_adapter: null
+prompt_role:
+  name: verification
+  actor_instruction: Independently solve the problem, then verify the selected option
+    against the main alternatives or likely failure mode before stating the final
+    answer.
+  critic_instruction: Independently verify the Actor answer and its strongest alternative,
+    then provide only brief details that improve correctness in the original ACC-Collab
+    critic style.
+  implementation_version: acccollab_role_prefix_v1+src_23b26ddf69594d23

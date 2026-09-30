@@ -1,0 +1,447 @@
+{
+  "created_at": "2026-07-26T04:02:14.253881+00:00",
+  "datasets": {
+    "arc": {
+      "expected_samples": 3548,
+      "logical_shards": 3,
+      "roles": {
+        "direct": {
+          "config": {
+            "path": "output/ablations/qwen25_3b_component_v1/resolved_configs/arc/direct.yaml",
+            "sha256": "60e5c019db5734c805248d70c9e593c783738ba5946f2a51a6b790d6898adc1b",
+            "size": 2628
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/qwen2_5_3b_instruct_eval_arc/resolved_role_configs/direct.yaml",
+            "sha256": "e68715a87af8ecbff2fe39ce17bc902cad944a5bea3eb51f9776dde3bee2b8ee",
+            "size": 2716
+          }
+        },
+        "evidence": {
+          "config": {
+            "path": "output/ablations/qwen25_3b_component_v1/resolved_configs/arc/evidence.yaml",
+            "sha256": "fa934bfebfe3b4d97d9b90aa0f12bff12d4c219c3f510bba071099f152c73a20",
+            "size": 2609
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/qwen2_5_3b_instruct_eval_arc/resolved_role_configs/evidence.yaml",
+            "sha256": "20942f89dd6121cdfbf9e172631d21db0490d9bb233b2ce5e987489e825d1e3a",
+            "size": 2699
+          }
+        },
+        "verification": {
+          "config": {
+            "path": "output/ablations/qwen25_3b_component_v1/resolved_configs/arc/verification.yaml",
+            "sha256": "3bbfbabe34fd2a98bb4afae63c41ccdf40075a73299e238eafb6564d6599690b",
+            "size": 2663
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/qwen2_5_3b_instruct_eval_arc/resolved_role_configs/verification.yaml",
+            "sha256": "3a042407a2484ea40d2fe537b15f924c7ce17918e9e84b92d1117cdded96b0f1",
+            "size": 2757
+          }
+        }
+      }
+    },
+    "bbh": {
+      "expected_samples": 1260,
+      "logical_shards": 1,
+      "roles": {
+        "direct": {
+          "config": {
+            "path": "output/ablations/qwen25_3b_component_v1/resolved_configs/bbh/direct.yaml",
+            "sha256": "8858303a163159f3c149a10e836f9e7c470c15e29e91fcbf065079994dcd9528",
+            "size": 2628
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/qwen2_5_3b_instruct_eval_bbh/resolved_role_configs/direct.yaml",
+            "sha256": "3631614ea90a9321085e4b790e751bf90dab7b7f3dc5e69f5dbc63fc8ac66f55",
+            "size": 2716
+          }
+        },
+        "evidence": {
+          "config": {
+            "path": "output/ablations/qwen25_3b_component_v1/resolved_configs/bbh/evidence.yaml",
+            "sha256": "f412475f13313b5079ea21a1c1ab37f8f57ebe0f5122924d45a8115af97df7c7",
+            "size": 2609
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/qwen2_5_3b_instruct_eval_bbh/resolved_role_configs/evidence.yaml",
+            "sha256": "c2baac9928e6a0b3ddf5c36f41683e6443c88be1cd1d415f6e87be2c79379eb6",
+            "size": 2699
+          }
+        },
+        "verification": {
+          "config": {
+            "path": "output/ablations/qwen25_3b_component_v1/resolved_configs/bbh/verification.yaml",
+            "sha256": "0593eaf06aed43efe6ffe52a82fa42e4ae64276bd72b725be54c9e5c587f33d4",
+            "size": 2663
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/qwen2_5_3b_instruct_eval_bbh/resolved_role_configs/verification.yaml",
+            "sha256": "de88591329964a839b3d9cce585c183321f1304aacb246e8c8b9388202c3d520",
+            "size": 2757
+          }
+        }
+      }
+    },
+    "boolq": {
+      "expected_samples": 3270,
+      "logical_shards": 3,
+      "roles": {
+        "direct": {
+          "config": {
+            "path": "output/ablations/qwen25_3b_component_v1/resolved_configs/boolq/direct.yaml",
+            "sha256": "543b0db5423a40f8c2543c39645770df2f528fa98fb7ef89eea8ba78acb9e929",
+            "size": 2640
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/qwen2_5_3b_instruct_eval_boolq/resolved_role_configs/direct.yaml",
+            "sha256": "486387bc8c36fea8d5061c2bdaa15e7b6852d803908627c684ec23dbceb369b9",
+            "size": 2728
+          }
+        },
+        "evidence": {
+          "config": {
+            "path": "output/ablations/qwen25_3b_component_v1/resolved_configs/boolq/evidence.yaml",
+            "sha256": "df17af0deaa768097ce7eb2d805f9c2a155fb42471f05ca1eb3a27112dd484d0",
+            "size": 2621
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/qwen2_5_3b_instruct_eval_boolq/resolved_role_configs/evidence.yaml",
+            "sha256": "29da4ce040120f6ad87bf4739d7f95034d6aa8dce512e61cbfd386b06419503c",
+            "size": 2711
+          }
+        },
+        "verification": {
+          "config": {
+            "path": "output/ablations/qwen25_3b_component_v1/resolved_configs/boolq/verification.yaml",
+            "sha256": "517ec8926c3fb41dff4e87b7824c4175c0def0eacb51cfdc08b50d1c675e805d",
+            "size": 2675
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/qwen2_5_3b_instruct_eval_boolq/resolved_role_configs/verification.yaml",
+            "sha256": "de08358ae9c60694e35a480a561e996dba55f71db2cc484661fcc3dfba34fdbe",
+            "size": 2769
+          }
+        }
+      }
+    },
+    "mmlu": {
+      "expected_samples": 14042,
+      "logical_shards": 4,
+      "roles": {
+        "direct": {
+          "config": {
+            "path": "output/ablations/qwen25_3b_component_v1/resolved_configs/mmlu/direct.yaml",
+            "sha256": "3db0a5cad964973c08c1a7dd28754eeccddce8233163eb74303dd77929dd4848",
+            "size": 2640
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/resolved_role_configs/direct.yaml",
+            "sha256": "eab5d7c3ce3717027508abadb54cacbbe8e19148f2e6c3862c079f0be902dbd0",
+            "size": 2665
+          }
+        },
+        "evidence": {
+          "config": {
+            "path": "output/ablations/qwen25_3b_component_v1/resolved_configs/mmlu/evidence.yaml",
+            "sha256": "8378aad55753ff0b0abd7584cb1cbd5892b03092e7e01cd85762ce822cce8cd1",
+            "size": 2621
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/resolved_role_configs/evidence.yaml",
+            "sha256": "bb1a0cc23cb36e1df17683d2565583d551176f370c077561ad6814a24bca9f09",
+            "size": 2646
+          }
+        },
+        "verification": {
+          "config": {
+            "path": "output/ablations/qwen25_3b_component_v1/resolved_configs/mmlu/verification.yaml",
+            "sha256": "ff0262365ffa45ff63ea8682eb4ae774014eac46f0433ad9cf4dac80ec05f09e",
+            "size": 2675
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/resolved_role_configs/verification.yaml",
+            "sha256": "07313d369c86ccb3584b7f147ac22ed69ab56c58d0aa8f4e9e77e2876d7ae7bf",
+            "size": 2700
+          }
+        }
+      }
+    },
+    "sciq": {
+      "expected_samples": 1000,
+      "logical_shards": 1,
+      "roles": {
+        "direct": {
+          "config": {
+            "path": "output/ablations/qwen25_3b_component_v1/resolved_configs/sciq/direct.yaml",
+            "sha256": "2b38290d14221b55bee6d8da6dc41064f7614ad6da2df512ecb93204a10eca59",
+            "size": 2626
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/qwen2_5_3b_instruct_eval_sciq/resolved_role_configs/direct.yaml",
+            "sha256": "55a41d2e602519db71c6f548415ee0ba11d11cd3e22cd512722a4509be7a6153",
+            "size": 2714
+          }
+        },
+        "evidence": {
+          "config": {
+            "path": "output/ablations/qwen25_3b_component_v1/resolved_configs/sciq/evidence.yaml",
+            "sha256": "29c2512177d1e20f49f790c5d505fb1a07f63312f6cafb86f68770b17f8b9ba2",
+            "size": 2607
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/qwen2_5_3b_instruct_eval_sciq/resolved_role_configs/evidence.yaml",
+            "sha256": "44a7a1d54bc9c03c448886b6b5898671fcc02decda61fd8fa43211b22ced331a",
+            "size": 2697
+          }
+        },
+        "verification": {
+          "config": {
+            "path": "output/ablations/qwen25_3b_component_v1/resolved_configs/sciq/verification.yaml",
+            "sha256": "7e5f3f822e76b97c013eb191c62ce1b9038a1fb49ecd3d699e144306dd1a03b7",
+            "size": 2661
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/qwen2_5_3b_instruct_eval_sciq/resolved_role_configs/verification.yaml",
+            "sha256": "73b871d30914cd3d3b3e5b0b579c589685635709a9cb6ec4d303ac71a7294660",
+            "size": 2755
+          }
+        }
+      }
+    }
+  },
+  "fingerprint": "43ac13469505d53960a0d8e8d9896686e042195f33046ccef7728420d2522d7c",
+  "implementation_version": "multi_acccollab_component_ablations_v1",
+  "model": {
+    "identity": {
+      "path": "PROJECT_ROOT/models/Qwen2.5-3B-Instruct",
+      "selected": {
+        "config.json": {
+          "sha256": "eed00b17e22553979d090fa492e587e92885e328914c8e0b0b78f0a0d3576b3b",
+          "size": 661
+        },
+        "generation_config.json": {
+          "sha256": "ea35dfb6fc5051b01114f9b995820d55dab01ed33ee490f6378b442af82c09f9",
+          "size": 242
+        },
+        "model.safetensors.index.json": {
+          "sha256": "bc8aaa0c87d4335177e01c765f1de0db81661c67c1a72fbfb0d521b09f5ddc56",
+          "size": 35581
+        },
+        "tokenizer_config.json": {
+          "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+          "size": 7305
+        }
+      },
+      "total_weight_bytes": 6171926992,
+      "weight_files": [
+        {
+          "name": "model-00001-of-00002.safetensors",
+          "size": 3968658944
+        },
+        {
+          "name": "model-00002-of-00002.safetensors",
+          "size": 2203268048
+        }
+      ]
+    },
+    "key": "qwen25",
+    "path": "models/Qwen2.5-3B-Instruct",
+    "slug": "qwen2_5_3b_instruct",
+    "type": "qwen2.5"
+  },
+  "no_sft_role_configs": {
+    "direct": {
+      "path": "output/ablations/qwen25_3b_component_v1/no_sft/resolved_role_configs/direct.yaml",
+      "sha256": "548f617473f9b9ee2da242e95a2dd545cff5965a67ab5a4a54b38fb3561e17bd",
+      "size": 2567
+    },
+    "evidence": {
+      "path": "output/ablations/qwen25_3b_component_v1/no_sft/resolved_role_configs/evidence.yaml",
+      "sha256": "5d0c43a2aa74383c8f69c038f15837a690e54cb70f02614d69ee4178335d9dc1",
+      "size": 2546
+    },
+    "verification": {
+      "path": "output/ablations/qwen25_3b_component_v1/no_sft/resolved_role_configs/verification.yaml",
+      "sha256": "89ab2215e0ee27b342f8188aeff8be4081f42cf71bf92326cf5979a57253e222",
+      "size": 2596
+    }
+  },
+  "output_root": "output/ablations/qwen25_3b_component_v1",
+  "schema_version": 1,
+  "source": {
+    "primary_multi_output": "output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k",
+    "role_policies": {
+      "direct": {
+        "sft_actor_adapter": "output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/sft/adapters/direct_adapter",
+        "sft_actor_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/sft/adapters/direct_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "3e560aa2beaa2a97f516b6b655ad9c58f38080fefa35221d1f36d9648555179c",
+              "size": 389
+            },
+            "adapter_config.json": {
+              "sha256": "5cc23c9a1d7444ee9016f4b87983ea346d47d16939468c9c8a4758c6f9a82c02",
+              "size": 1131
+            },
+            "adapter_model.safetensors": {
+              "sha256": "d857ba7c939fd6722ca61c8839663b11cd4dbc13b7abb3bf92dead4f54299ce2",
+              "size": 1915817488
+            }
+          }
+        },
+        "source_final_registry": {
+          "path": "output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/roles/direct/registry/final.json",
+          "sha256": "ae912c7bedd65936f9d4192aa7a6f336defcc948a738ea42af10d23e4c0db022",
+          "size": 2103
+        },
+        "trained_critic_adapter": "output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/roles/direct/adapters/iteration_01/critic_adapter",
+        "trained_critic_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/roles/direct/adapters/iteration_01/critic_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "b19f4a52d7adf3f1aad57167a342e3aed405706b6442a99f012de913e676def0",
+              "size": 411
+            },
+            "adapter_config.json": {
+              "sha256": "2d5ce8dfa991b715be5830d2bf050582d7638283bf1f5cff5c891bcc13560818",
+              "size": 1131
+            },
+            "adapter_model.safetensors": {
+              "sha256": "9740a7513e04c00f796cd41e842689cc768c6bb47dbc89c347b673439c2d15e6",
+              "size": 1915817488
+            }
+          }
+        }
+      },
+      "evidence": {
+        "sft_actor_adapter": "output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/sft/adapters/evidence_adapter",
+        "sft_actor_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/sft/adapters/evidence_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "8363c6a6fc14de164e95fbe6fdabe330b085b73ef75e6127609b512e2478a7a5",
+              "size": 391
+            },
+            "adapter_config.json": {
+              "sha256": "bc229cf9e4234ebd3a3d2a34e0edb217d22f8ffee2578651d7570a3383ab7dbd",
+              "size": 1131
+            },
+            "adapter_model.safetensors": {
+              "sha256": "d529708ebd0dcb2af36212aaa2f1b3d5a659af8a54c1c7f2ed4308008db9b302",
+              "size": 1915817488
+            }
+          }
+        },
+        "source_final_registry": {
+          "path": "output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/roles/evidence/registry/final.json",
+          "sha256": "8756b65ad2bd24000549ea4b6631a31d422cd138ede3d55b833d4a6bbebb5f40",
+          "size": 2115
+        },
+        "trained_critic_adapter": "output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/roles/evidence/adapters/iteration_01/critic_adapter",
+        "trained_critic_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/roles/evidence/adapters/iteration_01/critic_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "1b7e20004fac724698744baa38fc85621d4f4fce798e8db712b31f7a9d33e15c",
+              "size": 413
+            },
+            "adapter_config.json": {
+              "sha256": "f8f14628bd9a4449f4e41a351267e398f8c3b13ffdf87c320580982d5e4d2ebf",
+              "size": 1131
+            },
+            "adapter_model.safetensors": {
+              "sha256": "253a1daa70d868ef9e55f215c12f099346e8290188e480860c96dac75846e5ec",
+              "size": 1915817488
+            }
+          }
+        }
+      },
+      "verification": {
+        "sft_actor_adapter": "output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/sft/adapters/verification_adapter",
+        "sft_actor_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/sft/adapters/verification_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "1502f80a57ad18c66a4838349b4e81bc282566b6ebacc3b748089ff984bb908e",
+              "size": 395
+            },
+            "adapter_config.json": {
+              "sha256": "acc468ac1f8b68085770ae2eefc1a7b63445513877f0214831319b87ee2eadc8",
+              "size": 1131
+            },
+            "adapter_model.safetensors": {
+              "sha256": "e69d3c337eceea1c69c94fb33d35ec2f26e3afe94e3b5effb06b36ae4ee3012c",
+              "size": 1915817488
+            }
+          }
+        },
+        "source_final_registry": {
+          "path": "output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/roles/verification/registry/final.json",
+          "sha256": "5e0e611d7a228617024955d872909dc7df981bf434fb08176830eef8010a8782",
+          "size": 2139
+        },
+        "trained_critic_adapter": "output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/roles/verification/adapters/iteration_01/critic_adapter",
+        "trained_critic_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/roles/verification/adapters/iteration_01/critic_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "c3ee6639c61e5706f15e88b1193089d297f4471cae51c35c0d53c0c1d54decf4",
+              "size": 417
+            },
+            "adapter_config.json": {
+              "sha256": "b69ffe170b1332f1ec59d132a43340ed375ad0836e3361ffb8219125b00bcde1",
+              "size": 1131
+            },
+            "adapter_model.safetensors": {
+              "sha256": "3f5fff5eb643961a1a0267d20d1ecee22ffca71ca3645760f8b8a31f7086b859",
+              "size": 1915817488
+            }
+          }
+        }
+      }
+    },
+    "sft_registry": {
+      "path": "output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/sft/registry.json",
+      "sha256": "b87a9ab9f2c36f0773345a7ca9480100994b37b9fce8f63cd72a4bed4ba6b136",
+      "size": 3194
+    }
+  },
+  "variants": {
+    "gpu": {
+      "no_sft_full": [
+        "mmlu"
+      ],
+      "sft_base_critic": [
+        "mmlu"
+      ],
+      "sft_only": [
+        "boolq",
+        "sciq",
+        "bbh",
+        "arc",
+        "mmlu"
+      ],
+      "sft_trained_critic": [
+        "mmlu"
+      ]
+    },
+    "offline_from_full_records": [
+      "actor_dpo_only_round0",
+      "deliberation_rounds_0_to_4",
+      "per_role",
+      "majority",
+      "oracle_any_role",
+      "pair_agreement"
+    ]
+  }
+}

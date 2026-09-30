@@ -1,0 +1,20 @@
+{
+  "accuracy": 0.5087301587301587,
+  "correct": 641,
+  "dataset": "bbh",
+  "decision_rule": "single_model_single_shot",
+  "method": "direct",
+  "model_name": "PROJECT_ROOT/models/Qwen2.5-3B-Instruct",
+  "model_type": "qwen2.5",
+  "parse_rate": 0.9912698412698413,
+  "parsed": 1249,
+  "pipeline": "inference_baseline",
+  "protocol_version": "acccollab_inference_baselines_v1",
+  "reused_from": "output/baselines/qwen2_5_3b_instruct/bbh/debate/records.jsonl",
+  "samples": 1260,
+  "schema_version": 1,
+  "stage_fingerprint": "95f3e4e0cd72d424838292c04550ce591aa733dd4343d990cb83e09106f559f7",
+  "trials": 1,
+  "truncated": 0,
+  "truncation_rate": 0.0
+}

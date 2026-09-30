@@ -1,0 +1,105 @@
+run:
+  name: multi_acccollab_llama3_8b_instruct_eval_arc_direct
+  output_dir: output/multi_acccollab/llama3_8b_instruct_eval_arc/roles/direct
+  seed: 42
+model:
+  name: PROJECT_ROOT/models/Meta-Llama-3-8B-Instruct
+  type: llama3
+  dtype: bfloat16
+  max_model_len: 8192
+  language_model_only: false
+method:
+  alternating_iterations: 1
+  deliberation_rounds: 5
+  training_order: critic_then_actor
+  reward_estimator: one_step_mc
+  pair_rule: paper_eq5_if_elif
+data:
+  dataset: arc
+  preference:
+    split: validation
+    samples: 1
+    strategy: random
+    expected_samples: 1
+    sampling_seed: 42
+  eval:
+    split: test
+    samples: null
+    strategy: full
+    expected_samples: 3548
+    sampling_seed: 42
+  mmlu_load_mode: all
+  benchmark_data_dir: benchmark_data/acccollab_paper
+  preference_trials: 1
+runtime:
+  generation_devices:
+  - 0
+  training_devices:
+  - 0
+  gpu_memory_utilization: 0.85
+  enable_prefix_caching: true
+  enforce_eager: false
+  disable_lora_cudagraph: true
+  gdn_prefill_backend: null
+  max_num_batched_tokens: 8192
+  max_num_seqs: 128
+  batch:
+    preference_generation: 4
+    evaluation: 16
+tokens:
+  actor: 1024
+  critic: 1024
+  dpo_max_length: 4096
+  dpo_prompt: 3072
+  dpo_completion: 1024
+generation:
+  train_temperature: 0.7
+  eval_temperature: 0.7
+  top_p: 0.9
+  thinking:
+    train: false
+    eval: false
+  truncation:
+    warn_rate: 0.001
+    fail_rate: 0.01
+    fail_on_excess: false
+reward:
+  rollouts: 10
+  epsilon: 0.6
+  min_pairs_per_stage: 256
+training:
+  lora:
+    r: 256
+    alpha: 512
+  dpo:
+    learning_rate: 1.41e-05
+    batch_size: 2
+    gradient_accumulation_steps: 2
+    epochs: 3
+    beta: 0.1
+    loss_type: sigmoid
+    nll_weight: 1.0
+    warmup_ratio: 0.03
+    weight_decay: 0.1
+    max_grad_norm: 0.3
+    optim: adamw_torch
+    gradient_checkpointing: true
+    timeout_per_1k: 3600
+    checkpoint_steps: 50
+    checkpoint_total_limit: 1
+    resume_from_checkpoint: true
+    resume_optimizer_state: true
+evaluation:
+  trials: 1
+  policy_output_dir: null
+initialization:
+  actor_adapter: output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/sft/adapters/direct_adapter
+  critic_adapter: null
+prompt_role:
+  name: direct
+  actor_instruction: Solve directly and concisely. Identify the decisive fact or calculation
+    and avoid adding speculative alternatives once the answer is supported.
+  critic_instruction: Check the decisive fact or calculation in the Actor response.
+    Supply only brief missing details that improve correctness, following the original
+    ACC-Collab critic style.
+  implementation_version: acccollab_role_prefix_v1+src_0ea6772e002cd297

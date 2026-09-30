@@ -1,0 +1,20 @@
+{
+  "accuracy": 0.8988162344983089,
+  "correct": 3189,
+  "dataset": "arc",
+  "decision_rule": "single_model_single_shot",
+  "method": "direct",
+  "model_name": "PROJECT_ROOT/models/Phi-4-mini-instruct",
+  "model_type": "phi4",
+  "parse_rate": 0.9991544532130778,
+  "parsed": 3545,
+  "pipeline": "inference_baseline",
+  "protocol_version": "acccollab_inference_baselines_v1",
+  "reused_from": "output/baselines/phi4_mini_instruct/arc/debate/records.jsonl",
+  "samples": 3548,
+  "schema_version": 1,
+  "stage_fingerprint": "92e954da0c48f35ccfe672f786578114b291833fa41f4856fdaa89781af7095d",
+  "trials": 1,
+  "truncated": 0,
+  "truncation_rate": 0.0
+}

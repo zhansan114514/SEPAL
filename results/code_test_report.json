@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "test_log_recorded_at_utc": "2026-09-05T06:13:04.256345+00:00",
+  "environment": {
+    "platform": "Linux",
+    "python": "3.13.13",
+    "pytest": "9.1.1",
+    "torch": "2.12.1+cu126",
+    "trl": "1.7.0",
+    "transformers": "5.12.1",
+    "peft": "0.19.1",
+    "datasets": "5.0.0"
+  },
+  "scope": {
+    "test_files": 13,
+    "collected": 290,
+    "passed": 290,
+    "failed": 0,
+    "pytest_warnings": 2,
+    "duration_seconds": 8.81
+  },
+  "test_log_sha256": "4186de15c61b9db4a35bbbc44e24e055ca3b2d6b0e045607d1846b8d75991ea4",
+  "notes": [
+    "Test run used the packaged code directory as the working directory.",
+    "Warnings originate in third-party SWIG bindings; an additional interpreter-shutdown SWIG warning appears after the pytest summary.",
+    "This is the audit environment, not a historical full inference environment lockfile.",
+    "Tests do not launch model training or GPU inference."
+  ]
+}

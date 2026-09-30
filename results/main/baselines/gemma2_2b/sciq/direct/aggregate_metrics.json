@@ -1,0 +1,20 @@
+{
+  "accuracy": 0.892,
+  "correct": 892,
+  "dataset": "sciq",
+  "decision_rule": "single_model_single_shot",
+  "method": "direct",
+  "model_name": "PROJECT_ROOT/models/gemma-2-2b-it",
+  "model_type": "gemma2",
+  "parse_rate": 1.0,
+  "parsed": 1000,
+  "pipeline": "inference_baseline",
+  "protocol_version": "acccollab_inference_baselines_v1",
+  "reused_from": "output/baselines/gemma2_2b_instruct/sciq/debate/records.jsonl",
+  "samples": 1000,
+  "schema_version": 1,
+  "stage_fingerprint": "94457f49afdee372641a1299fceefc0b467b49d575662245a9d92d16f177cd2a",
+  "trials": 1,
+  "truncated": 0,
+  "truncation_rate": 0.0
+}

@@ -1,0 +1,20 @@
+{
+  "accuracy": 0.6580259222333001,
+  "correct": 9240,
+  "dataset": "mmlu",
+  "decision_rule": "single_model_single_shot",
+  "method": "direct",
+  "model_name": "PROJECT_ROOT/models/Qwen2.5-3B-Instruct",
+  "model_type": "qwen2.5",
+  "parse_rate": 0.996011964107677,
+  "parsed": 13986,
+  "pipeline": "inference_baseline",
+  "protocol_version": "acccollab_inference_baselines_v1",
+  "reused_from": "output/baselines/qwen2_5_3b_instruct/mmlu/debate/records.jsonl",
+  "samples": 14042,
+  "schema_version": 1,
+  "stage_fingerprint": "2ea95617214a578f2a5e3ce15ac1aebd38e1ae76463e0ae383df6131ee8f2ddd",
+  "trials": 1,
+  "truncated": 0,
+  "truncation_rate": 0.0
+}

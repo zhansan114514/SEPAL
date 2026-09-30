@@ -1,0 +1,686 @@
+{
+  "audited_at_utc": "2026-09-05T06:13:39.426734+00:00",
+  "status": "pass",
+  "scope": "Trial 0 raw Actor completions re-extracted using the paper parser and compared with every released full-system role vote.",
+  "parser_sha256": "ecc5899445dc3c1764dad321b8bc91feabd4f865c601976896657b2c540b14c1",
+  "files": 75,
+  "actor_rounds": 1734000,
+  "mismatches": [],
+  "records": [
+    {
+      "model": "llama3_8b",
+      "dataset": "boolq",
+      "role": "direct",
+      "source": "output/multi_acccollab/llama3_8b_instruct_eval_boolq/roles/direct/eval/records.jsonl",
+      "sha256": "759b6cafea520bb7685bdf4fe3d7eea242582e809aeb7486644df441701f0b71",
+      "samples": 3270,
+      "actor_rounds": 16350
+    },
+    {
+      "model": "llama3_8b",
+      "dataset": "boolq",
+      "role": "evidence",
+      "source": "output/multi_acccollab/llama3_8b_instruct_eval_boolq/roles/evidence/eval/records.jsonl",
+      "sha256": "2c886a1001acad3d11d59e8f9570b35722e396dbfc6183eab9ec5cc2266ce45c",
+      "samples": 3270,
+      "actor_rounds": 16350
+    },
+    {
+      "model": "llama3_8b",
+      "dataset": "boolq",
+      "role": "verification",
+      "source": "output/multi_acccollab/llama3_8b_instruct_eval_boolq/roles/verification/eval/records.jsonl",
+      "sha256": "b218c7cef1936c96221830d5b1bd0d1a0ff3c64e983deff00afc07d0b11421dc",
+      "samples": 3270,
+      "actor_rounds": 16350
+    },
+    {
+      "model": "llama3_8b",
+      "dataset": "mmlu",
+      "role": "direct",
+      "source": "output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/roles/direct/eval/records.jsonl",
+      "sha256": "fc7358bd5f406f5b9d6317b9775e054cbe7e651820ee64d9b5fde63f51355e59",
+      "samples": 14042,
+      "actor_rounds": 70210
+    },
+    {
+      "model": "llama3_8b",
+      "dataset": "mmlu",
+      "role": "evidence",
+      "source": "output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/roles/evidence/eval/records.jsonl",
+      "sha256": "ba1e1612e4854ffbfa5b64219dd620d68a78b500a472c987ccd53266630e29c3",
+      "samples": 14042,
+      "actor_rounds": 70210
+    },
+    {
+      "model": "llama3_8b",
+      "dataset": "mmlu",
+      "role": "verification",
+      "source": "output/multi_acccollab/llama3_8b_instruct_mmlu_sft10k/roles/verification/eval/records.jsonl",
+      "sha256": "8662c94aa8150fc469aca07e3fd26a5fc387862d2f2d7ca40cc430e6b17a04c4",
+      "samples": 14042,
+      "actor_rounds": 70210
+    },
+    {
+      "model": "llama3_8b",
+      "dataset": "bbh",
+      "role": "direct",
+      "source": "output/multi_acccollab/llama3_8b_instruct_eval_bbh/roles/direct/eval/records.jsonl",
+      "sha256": "6dba03f20f3e1187766c99a69da7b68a8bb75d8b7cc49504330fd18728456b1d",
+      "samples": 1260,
+      "actor_rounds": 6300
+    },
+    {
+      "model": "llama3_8b",
+      "dataset": "bbh",
+      "role": "evidence",
+      "source": "output/multi_acccollab/llama3_8b_instruct_eval_bbh/roles/evidence/eval/records.jsonl",
+      "sha256": "7e8c69dba00fd2ff79cd3cc83052ee0781170523b29d3096859c8dbf0e58dc38",
+      "samples": 1260,
+      "actor_rounds": 6300
+    },
+    {
+      "model": "llama3_8b",
+      "dataset": "bbh",
+      "role": "verification",
+      "source": "output/multi_acccollab/llama3_8b_instruct_eval_bbh/roles/verification/eval/records.jsonl",
+      "sha256": "29747bbefe9865c331e39998e06fb7c743c2b0baa1619659c302434b29d97cf2",
+      "samples": 1260,
+      "actor_rounds": 6300
+    },
+    {
+      "model": "llama3_8b",
+      "dataset": "sciq",
+      "role": "direct",
+      "source": "output/multi_acccollab/llama3_8b_instruct_eval_sciq/roles/direct/eval/records.jsonl",
+      "sha256": "f28b7a410072998064ee621b5ca4d30a7fcf599a1e4516daf7249a49a39329c0",
+      "samples": 1000,
+      "actor_rounds": 5000
+    },
+    {
+      "model": "llama3_8b",
+      "dataset": "sciq",
+      "role": "evidence",
+      "source": "output/multi_acccollab/llama3_8b_instruct_eval_sciq/roles/evidence/eval/records.jsonl",
+      "sha256": "b7744090b7e1ad46622998a515a366b23fb16ba808d9f379e9452b9833b17200",
+      "samples": 1000,
+      "actor_rounds": 5000
+    },
+    {
+      "model": "llama3_8b",
+      "dataset": "sciq",
+      "role": "verification",
+      "source": "output/multi_acccollab/llama3_8b_instruct_eval_sciq/roles/verification/eval/records.jsonl",
+      "sha256": "1b1c427cd868914a82895111a716f5fd045b4a3cdb7f22be05adc8d55429a8a3",
+      "samples": 1000,
+      "actor_rounds": 5000
+    },
+    {
+      "model": "llama3_8b",
+      "dataset": "arc",
+      "role": "direct",
+      "source": "output/multi_acccollab/llama3_8b_instruct_eval_arc/roles/direct/eval/records.jsonl",
+      "sha256": "2d827d1470b6af97e5683556f5a4ac4ea365e718f033314cf064a75de839d96e",
+      "samples": 3548,
+      "actor_rounds": 17740
+    },
+    {
+      "model": "llama3_8b",
+      "dataset": "arc",
+      "role": "evidence",
+      "source": "output/multi_acccollab/llama3_8b_instruct_eval_arc/roles/evidence/eval/records.jsonl",
+      "sha256": "30c13a00a0884d52df9fd317db990596d7bb827b6d1545b6a3cd6f3079826eb0",
+      "samples": 3548,
+      "actor_rounds": 17740
+    },
+    {
+      "model": "llama3_8b",
+      "dataset": "arc",
+      "role": "verification",
+      "source": "output/multi_acccollab/llama3_8b_instruct_eval_arc/roles/verification/eval/records.jsonl",
+      "sha256": "b88398e61df740918974a25f6354ebafdead665ec1b2cbbb2cdcfb528a04055b",
+      "samples": 3548,
+      "actor_rounds": 17740
+    },
+    {
+      "model": "qwen25_3b",
+      "dataset": "boolq",
+      "role": "direct",
+      "source": "output/multi_acccollab/qwen2_5_3b_instruct_eval_boolq/roles/direct/eval/records.jsonl",
+      "sha256": "40cf0e7a58904f7c12aff11f99ad4a35e52b236ea2f716ac1a4b7b3d15968e71",
+      "samples": 3270,
+      "actor_rounds": 16350
+    },
+    {
+      "model": "qwen25_3b",
+      "dataset": "boolq",
+      "role": "evidence",
+      "source": "output/multi_acccollab/qwen2_5_3b_instruct_eval_boolq/roles/evidence/eval/records.jsonl",
+      "sha256": "c96dfc1ac8f200c63ef29312c52de2acc314f4aebbd2890ba1393238eccb7434",
+      "samples": 3270,
+      "actor_rounds": 16350
+    },
+    {
+      "model": "qwen25_3b",
+      "dataset": "boolq",
+      "role": "verification",
+      "source": "output/multi_acccollab/qwen2_5_3b_instruct_eval_boolq/roles/verification/eval/records.jsonl",
+      "sha256": "f472fdc22ac6f9d80cc057241e503787b87ce9284ea5da37348bd94f1145e7bb",
+      "samples": 3270,
+      "actor_rounds": 16350
+    },
+    {
+      "model": "qwen25_3b",
+      "dataset": "mmlu",
+      "role": "direct",
+      "source": "output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/roles/direct/eval/records.jsonl",
+      "sha256": "b7bd752add3a31697a1d403423b9dafe0b1e7673889e89cb9bce608f8dda14ea",
+      "samples": 14042,
+      "actor_rounds": 70210
+    },
+    {
+      "model": "qwen25_3b",
+      "dataset": "mmlu",
+      "role": "evidence",
+      "source": "output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/roles/evidence/eval/records.jsonl",
+      "sha256": "154f61f5b6cec3a584ebd22f8a7c88ba97614419c302ff78911e7e0fe647a7ee",
+      "samples": 14042,
+      "actor_rounds": 70210
+    },
+    {
+      "model": "qwen25_3b",
+      "dataset": "mmlu",
+      "role": "verification",
+      "source": "output/multi_acccollab/qwen2_5_3b_instruct_mmlu_sft10k/roles/verification/eval/records.jsonl",
+      "sha256": "cea576e8d738ab809b19cecdf4a177bc4a161636ea3b08a7e61037c8d5d80f80",
+      "samples": 14042,
+      "actor_rounds": 70210
+    },
+    {
+      "model": "qwen25_3b",
+      "dataset": "bbh",
+      "role": "direct",
+      "source": "output/multi_acccollab/qwen2_5_3b_instruct_eval_bbh/roles/direct/eval/records.jsonl",
+      "sha256": "f63383266d33b50c4a4f3189c18e5c65bb91ed0ba2fc9264e0cc924aa9088617",
+      "samples": 1260,
+      "actor_rounds": 6300
+    },
+    {
+      "model": "qwen25_3b",
+      "dataset": "bbh",
+      "role": "evidence",
+      "source": "output/multi_acccollab/qwen2_5_3b_instruct_eval_bbh/roles/evidence/eval/records.jsonl",
+      "sha256": "7fe849b21744ec8c74d0da5242857a92ef02a225944211e47eed6e93586d5936",
+      "samples": 1260,
+      "actor_rounds": 6300
+    },
+    {
+      "model": "qwen25_3b",
+      "dataset": "bbh",
+      "role": "verification",
+      "source": "output/multi_acccollab/qwen2_5_3b_instruct_eval_bbh/roles/verification/eval/records.jsonl",
+      "sha256": "71d448376a951499d1e0424478bda6e9a77596d0b33358649d8c1f69a6c90214",
+      "samples": 1260,
+      "actor_rounds": 6300
+    },
+    {
+      "model": "qwen25_3b",
+      "dataset": "sciq",
+      "role": "direct",
+      "source": "output/multi_acccollab/qwen2_5_3b_instruct_eval_sciq/roles/direct/eval/records.jsonl",
+      "sha256": "6968a35cf20323d839f99e89eb49b3637b6b4d80fc6b06f7426087ee7f35c61d",
+      "samples": 1000,
+      "actor_rounds": 5000
+    },
+    {
+      "model": "qwen25_3b",
+      "dataset": "sciq",
+      "role": "evidence",
+      "source": "output/multi_acccollab/qwen2_5_3b_instruct_eval_sciq/roles/evidence/eval/records.jsonl",
+      "sha256": "fc50c3513234800bceadf7b9f30f779cab441ed542a3c90172ae8efff72adae6",
+      "samples": 1000,
+      "actor_rounds": 5000
+    },
+    {
+      "model": "qwen25_3b",
+      "dataset": "sciq",
+      "role": "verification",
+      "source": "output/multi_acccollab/qwen2_5_3b_instruct_eval_sciq/roles/verification/eval/records.jsonl",
+      "sha256": "030e14df2e2aa3160ee8fdb681d85a9fd0b4df8d6f565f97db989b1b90e8192b",
+      "samples": 1000,
+      "actor_rounds": 5000
+    },
+    {
+      "model": "qwen25_3b",
+      "dataset": "arc",
+      "role": "direct",
+      "source": "output/multi_acccollab/qwen2_5_3b_instruct_eval_arc/roles/direct/eval/records.jsonl",
+      "sha256": "a678523bd1b3c7d91d203090da0b11d45c3fbd21e13fe573d85e995a7891c19c",
+      "samples": 3548,
+      "actor_rounds": 17740
+    },
+    {
+      "model": "qwen25_3b",
+      "dataset": "arc",
+      "role": "evidence",
+      "source": "output/multi_acccollab/qwen2_5_3b_instruct_eval_arc/roles/evidence/eval/records.jsonl",
+      "sha256": "5fe6c3c57bec3e1af500b52ac21a87208bffb01d2f49a390d54e01a971b146e6",
+      "samples": 3548,
+      "actor_rounds": 17740
+    },
+    {
+      "model": "qwen25_3b",
+      "dataset": "arc",
+      "role": "verification",
+      "source": "output/multi_acccollab/qwen2_5_3b_instruct_eval_arc/roles/verification/eval/records.jsonl",
+      "sha256": "1f6afe1408111983ddb5ba85708d43770d7daa6ef5d87161d3c2181d9bc629a8",
+      "samples": 3548,
+      "actor_rounds": 17740
+    },
+    {
+      "model": "gemma2_2b",
+      "dataset": "boolq",
+      "role": "direct",
+      "source": "output/multi_acccollab/gemma2_2b_instruct_eval_boolq/roles/direct/eval/records.jsonl",
+      "sha256": "7529afbe00aa18d5a279623b8961bd4d03e3bbef2bfc37601845cf99134bd097",
+      "samples": 3270,
+      "actor_rounds": 16350
+    },
+    {
+      "model": "gemma2_2b",
+      "dataset": "boolq",
+      "role": "evidence",
+      "source": "output/multi_acccollab/gemma2_2b_instruct_eval_boolq/roles/evidence/eval/records.jsonl",
+      "sha256": "f13ebc590a2a384ee940043cda6b4066bb5de585d842f643edbaf99ff69bfd37",
+      "samples": 3270,
+      "actor_rounds": 16350
+    },
+    {
+      "model": "gemma2_2b",
+      "dataset": "boolq",
+      "role": "verification",
+      "source": "output/multi_acccollab/gemma2_2b_instruct_eval_boolq/roles/verification/eval/records.jsonl",
+      "sha256": "0d7ad28408e53eb558f91d308fab41966494f6301a4ff6c1e57dcb125b90504b",
+      "samples": 3270,
+      "actor_rounds": 16350
+    },
+    {
+      "model": "gemma2_2b",
+      "dataset": "mmlu",
+      "role": "direct",
+      "source": "output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/roles/direct/eval/records.jsonl",
+      "sha256": "7865028d45299e6efbb4044b118dd276869f74d6db63bc975e98bdcd6a182d71",
+      "samples": 14042,
+      "actor_rounds": 70210
+    },
+    {
+      "model": "gemma2_2b",
+      "dataset": "mmlu",
+      "role": "evidence",
+      "source": "output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/roles/evidence/eval/records.jsonl",
+      "sha256": "9d5d4c08409145fb3d678c3d0ad8be1f21a27b84199159583772759d05bbbde7",
+      "samples": 14042,
+      "actor_rounds": 70210
+    },
+    {
+      "model": "gemma2_2b",
+      "dataset": "mmlu",
+      "role": "verification",
+      "source": "output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/roles/verification/eval/records.jsonl",
+      "sha256": "3ed5cbfdc1a2f8d2e4eb786c5628856d2b99c54c99f6970f6ff8c8630a8ed4a8",
+      "samples": 14042,
+      "actor_rounds": 70210
+    },
+    {
+      "model": "gemma2_2b",
+      "dataset": "bbh",
+      "role": "direct",
+      "source": "output/multi_acccollab/gemma2_2b_instruct_eval_bbh/roles/direct/eval/records.jsonl",
+      "sha256": "f0901eca8decd0bb041298da002bacd8dade739551f70d9a1feb502f49a656e7",
+      "samples": 1260,
+      "actor_rounds": 6300
+    },
+    {
+      "model": "gemma2_2b",
+      "dataset": "bbh",
+      "role": "evidence",
+      "source": "output/multi_acccollab/gemma2_2b_instruct_eval_bbh/roles/evidence/eval/records.jsonl",
+      "sha256": "f2861da42253807e1e8d624efd2484e704613b93dcd3b76cd3e01b747344fc76",
+      "samples": 1260,
+      "actor_rounds": 6300
+    },
+    {
+      "model": "gemma2_2b",
+      "dataset": "bbh",
+      "role": "verification",
+      "source": "output/multi_acccollab/gemma2_2b_instruct_eval_bbh/roles/verification/eval/records.jsonl",
+      "sha256": "5b645d136eabcf58fab2a482d1f8934fd14b577087bbc13f6e789db6b873ac12",
+      "samples": 1260,
+      "actor_rounds": 6300
+    },
+    {
+      "model": "gemma2_2b",
+      "dataset": "sciq",
+      "role": "direct",
+      "source": "output/multi_acccollab/gemma2_2b_instruct_eval_sciq/roles/direct/eval/records.jsonl",
+      "sha256": "9418632cd107133c3a09cbc463c676d391ffb32853d3cf4582d7031c94e6932a",
+      "samples": 1000,
+      "actor_rounds": 5000
+    },
+    {
+      "model": "gemma2_2b",
+      "dataset": "sciq",
+      "role": "evidence",
+      "source": "output/multi_acccollab/gemma2_2b_instruct_eval_sciq/roles/evidence/eval/records.jsonl",
+      "sha256": "7a21070b6f3abaae0f4cadb0d487ca60b608d8e5052dda0b9d5ccd9d25abfef7",
+      "samples": 1000,
+      "actor_rounds": 5000
+    },
+    {
+      "model": "gemma2_2b",
+      "dataset": "sciq",
+      "role": "verification",
+      "source": "output/multi_acccollab/gemma2_2b_instruct_eval_sciq/roles/verification/eval/records.jsonl",
+      "sha256": "4b86bbb70719756b9f7f525cf0be901010f3acba0a81abd907868ebda96a9fc1",
+      "samples": 1000,
+      "actor_rounds": 5000
+    },
+    {
+      "model": "gemma2_2b",
+      "dataset": "arc",
+      "role": "direct",
+      "source": "output/multi_acccollab/gemma2_2b_instruct_eval_arc/roles/direct/eval/records.jsonl",
+      "sha256": "079a07ddda66a63fe42390be18d0d59ee0e0e9d382cd29b59a75ca96c5c9f71c",
+      "samples": 3548,
+      "actor_rounds": 17740
+    },
+    {
+      "model": "gemma2_2b",
+      "dataset": "arc",
+      "role": "evidence",
+      "source": "output/multi_acccollab/gemma2_2b_instruct_eval_arc/roles/evidence/eval/records.jsonl",
+      "sha256": "a9e768e2ddfe6468dc3073bd93e778f0c7e7a84856605d79b74aeee74a574230",
+      "samples": 3548,
+      "actor_rounds": 17740
+    },
+    {
+      "model": "gemma2_2b",
+      "dataset": "arc",
+      "role": "verification",
+      "source": "output/multi_acccollab/gemma2_2b_instruct_eval_arc/roles/verification/eval/records.jsonl",
+      "sha256": "f2c204d0dd88aa9873978f71fce3dca51941498cb7d3e0ec9fa88f9a31a1bf89",
+      "samples": 3548,
+      "actor_rounds": 17740
+    },
+    {
+      "model": "phi4_mini",
+      "dataset": "boolq",
+      "role": "direct",
+      "source": "output/multi_acccollab/phi4_mini_instruct_eval_boolq/roles/direct/eval/records.jsonl",
+      "sha256": "85c463aa7644c6e0f6a9242801b2674a7cc1373126364c13a7e7968331616f89",
+      "samples": 3270,
+      "actor_rounds": 16350
+    },
+    {
+      "model": "phi4_mini",
+      "dataset": "boolq",
+      "role": "evidence",
+      "source": "output/multi_acccollab/phi4_mini_instruct_eval_boolq/roles/evidence/eval/records.jsonl",
+      "sha256": "b0c8260355de5ba746693c6220c2539670066ae48d5e1abe183d153bfac63284",
+      "samples": 3270,
+      "actor_rounds": 16350
+    },
+    {
+      "model": "phi4_mini",
+      "dataset": "boolq",
+      "role": "verification",
+      "source": "output/multi_acccollab/phi4_mini_instruct_eval_boolq/roles/verification/eval/records.jsonl",
+      "sha256": "9829393582560a823da6ffc5f76e08c5882fb55a0d2f4ea8b1d6742f0b887b1b",
+      "samples": 3270,
+      "actor_rounds": 16350
+    },
+    {
+      "model": "phi4_mini",
+      "dataset": "mmlu",
+      "role": "direct",
+      "source": "output/multi_acccollab/phi4_mini_instruct_mmlu_sft10k/roles/direct/eval/records.jsonl",
+      "sha256": "273b36dfa4cdc4463412c122df32d26990a06ad2f075d8f6fbef83fdbb9bc430",
+      "samples": 14042,
+      "actor_rounds": 70210
+    },
+    {
+      "model": "phi4_mini",
+      "dataset": "mmlu",
+      "role": "evidence",
+      "source": "output/multi_acccollab/phi4_mini_instruct_mmlu_sft10k/roles/evidence/eval/records.jsonl",
+      "sha256": "d04165a6b71429771501769a7702934d3e150815c2b74ba871d45678a8e36ed3",
+      "samples": 14042,
+      "actor_rounds": 70210
+    },
+    {
+      "model": "phi4_mini",
+      "dataset": "mmlu",
+      "role": "verification",
+      "source": "output/multi_acccollab/phi4_mini_instruct_mmlu_sft10k/roles/verification/eval/records.jsonl",
+      "sha256": "0045f6d7bade85ce7eb90319363899dc3dffcab371b39d213e87310edffd44af",
+      "samples": 14042,
+      "actor_rounds": 70210
+    },
+    {
+      "model": "phi4_mini",
+      "dataset": "bbh",
+      "role": "direct",
+      "source": "output/multi_acccollab/phi4_mini_instruct_eval_bbh/roles/direct/eval/records.jsonl",
+      "sha256": "fca1be2d040fd14b8bf6e475763445231ee791f7dc01e90b94cbbfad2e0e70ec",
+      "samples": 1260,
+      "actor_rounds": 6300
+    },
+    {
+      "model": "phi4_mini",
+      "dataset": "bbh",
+      "role": "evidence",
+      "source": "output/multi_acccollab/phi4_mini_instruct_eval_bbh/roles/evidence/eval/records.jsonl",
+      "sha256": "47062070304ca6bb17f9b97a0a670c17326838292c49c97a08db38eed7017063",
+      "samples": 1260,
+      "actor_rounds": 6300
+    },
+    {
+      "model": "phi4_mini",
+      "dataset": "bbh",
+      "role": "verification",
+      "source": "output/multi_acccollab/phi4_mini_instruct_eval_bbh/roles/verification/eval/records.jsonl",
+      "sha256": "bb9cbe296546f52087d2fcdcb01a0b5744641ae39b6a3257b5ecb24e10a8a446",
+      "samples": 1260,
+      "actor_rounds": 6300
+    },
+    {
+      "model": "phi4_mini",
+      "dataset": "sciq",
+      "role": "direct",
+      "source": "output/multi_acccollab/phi4_mini_instruct_eval_sciq/roles/direct/eval/records.jsonl",
+      "sha256": "e145c9523ebafb12af39a98a1eb0aaeb73891221508821bb56ad14ba546f596f",
+      "samples": 1000,
+      "actor_rounds": 5000
+    },
+    {
+      "model": "phi4_mini",
+      "dataset": "sciq",
+      "role": "evidence",
+      "source": "output/multi_acccollab/phi4_mini_instruct_eval_sciq/roles/evidence/eval/records.jsonl",
+      "sha256": "26e4729f659a4b185cca3cbf9dad722071f2a824a414e89f12c3df86d3cf90df",
+      "samples": 1000,
+      "actor_rounds": 5000
+    },
+    {
+      "model": "phi4_mini",
+      "dataset": "sciq",
+      "role": "verification",
+      "source": "output/multi_acccollab/phi4_mini_instruct_eval_sciq/roles/verification/eval/records.jsonl",
+      "sha256": "3fec266f5c9d7781f14df7d77bb0c1f436102e3dda72944af16093acd2c0528c",
+      "samples": 1000,
+      "actor_rounds": 5000
+    },
+    {
+      "model": "phi4_mini",
+      "dataset": "arc",
+      "role": "direct",
+      "source": "output/multi_acccollab/phi4_mini_instruct_eval_arc/roles/direct/eval/records.jsonl",
+      "sha256": "af8ccf6b45af84113e6c957c18fb9470f9fe15294c248b84c01a49257fc04ca5",
+      "samples": 3548,
+      "actor_rounds": 17740
+    },
+    {
+      "model": "phi4_mini",
+      "dataset": "arc",
+      "role": "evidence",
+      "source": "output/multi_acccollab/phi4_mini_instruct_eval_arc/roles/evidence/eval/records.jsonl",
+      "sha256": "0e85469383d24ea6376a83adedb99d73a183ae9002c3efd961d8e2cb9ba32a4b",
+      "samples": 3548,
+      "actor_rounds": 17740
+    },
+    {
+      "model": "phi4_mini",
+      "dataset": "arc",
+      "role": "verification",
+      "source": "output/multi_acccollab/phi4_mini_instruct_eval_arc/roles/verification/eval/records.jsonl",
+      "sha256": "4b1c3a37f5b1b72b1c03bf2c25bd3ac12181a19d8611a0d03c6e92b92b827cd8",
+      "samples": 3548,
+      "actor_rounds": 17740
+    },
+    {
+      "model": "mistral7b_v03",
+      "dataset": "boolq",
+      "role": "direct",
+      "source": "output/multi_acccollab/mistral_7b_instruct_v03_eval_boolq_trials5_singlebos/roles/direct/eval/records.jsonl",
+      "sha256": "ff2ef56be28291af19b937f9528eefa9026af6097b608f7b4aaaaab3abf3b1d6",
+      "samples": 3270,
+      "actor_rounds": 16350
+    },
+    {
+      "model": "mistral7b_v03",
+      "dataset": "boolq",
+      "role": "evidence",
+      "source": "output/multi_acccollab/mistral_7b_instruct_v03_eval_boolq_trials5_singlebos/roles/evidence/eval/records.jsonl",
+      "sha256": "bfb96f70e96c6af32e1896bdd02525b7822b711557d2beb341c1f87a0bc38b1b",
+      "samples": 3270,
+      "actor_rounds": 16350
+    },
+    {
+      "model": "mistral7b_v03",
+      "dataset": "boolq",
+      "role": "verification",
+      "source": "output/multi_acccollab/mistral_7b_instruct_v03_eval_boolq_trials5_singlebos/roles/verification/eval/records.jsonl",
+      "sha256": "62bf8b1e2479d2e0c6d676acea95f62492e7157c3002a966122f45e8f90eae30",
+      "samples": 3270,
+      "actor_rounds": 16350
+    },
+    {
+      "model": "mistral7b_v03",
+      "dataset": "mmlu",
+      "role": "direct",
+      "source": "output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/roles/direct/eval/records.jsonl",
+      "sha256": "8e4a75bef48c87eda672fd808d915614806fdd32e44b8873718c5daab7ce338f",
+      "samples": 14042,
+      "actor_rounds": 70210
+    },
+    {
+      "model": "mistral7b_v03",
+      "dataset": "mmlu",
+      "role": "evidence",
+      "source": "output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/roles/evidence/eval/records.jsonl",
+      "sha256": "f09770216acc4374bbf3da60a87c8b56a994a9830f1703c4c6b67165a934abff",
+      "samples": 14042,
+      "actor_rounds": 70210
+    },
+    {
+      "model": "mistral7b_v03",
+      "dataset": "mmlu",
+      "role": "verification",
+      "source": "output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos/roles/verification/eval/records.jsonl",
+      "sha256": "4f8a8681187a50cfb8cfdeb0a43274afbdd42c869844c1b8d86b538d521fee8e",
+      "samples": 14042,
+      "actor_rounds": 70210
+    },
+    {
+      "model": "mistral7b_v03",
+      "dataset": "bbh",
+      "role": "direct",
+      "source": "output/multi_acccollab/mistral_7b_instruct_v03_eval_bbh_trials5_singlebos/roles/direct/eval/records.jsonl",
+      "sha256": "e28f76e35d1721c4a52477e2544f2174a82e28edac0ddfd5e57ff2f34c65fe1e",
+      "samples": 1260,
+      "actor_rounds": 6300
+    },
+    {
+      "model": "mistral7b_v03",
+      "dataset": "bbh",
+      "role": "evidence",
+      "source": "output/multi_acccollab/mistral_7b_instruct_v03_eval_bbh_trials5_singlebos/roles/evidence/eval/records.jsonl",
+      "sha256": "44c2e63c0dccb79550ce42736caf9b4c4a5db49868ee8864af65fc6431162d77",
+      "samples": 1260,
+      "actor_rounds": 6300
+    },
+    {
+      "model": "mistral7b_v03",
+      "dataset": "bbh",
+      "role": "verification",
+      "source": "output/multi_acccollab/mistral_7b_instruct_v03_eval_bbh_trials5_singlebos/roles/verification/eval/records.jsonl",
+      "sha256": "72189c75347b7a132d3be93af09995abfb1485ad3f5a2f792ca77e47685078ff",
+      "samples": 1260,
+      "actor_rounds": 6300
+    },
+    {
+      "model": "mistral7b_v03",
+      "dataset": "sciq",
+      "role": "direct",
+      "source": "output/multi_acccollab/mistral_7b_instruct_v03_eval_sciq_trials5_singlebos/roles/direct/eval/records.jsonl",
+      "sha256": "7b188ab4cfeccab82320de16cb132e0ea5faca7e7221501d75a867566b6dc812",
+      "samples": 1000,
+      "actor_rounds": 5000
+    },
+    {
+      "model": "mistral7b_v03",
+      "dataset": "sciq",
+      "role": "evidence",
+      "source": "output/multi_acccollab/mistral_7b_instruct_v03_eval_sciq_trials5_singlebos/roles/evidence/eval/records.jsonl",
+      "sha256": "95bb28b96d4e2608347d11d663a0cf8fb908eb4f116a0374bc796ac885f7e998",
+      "samples": 1000,
+      "actor_rounds": 5000
+    },
+    {
+      "model": "mistral7b_v03",
+      "dataset": "sciq",
+      "role": "verification",
+      "source": "output/multi_acccollab/mistral_7b_instruct_v03_eval_sciq_trials5_singlebos/roles/verification/eval/records.jsonl",
+      "sha256": "265650d2b1ef7204d45173262b0c4ab54721b2bd26a3d853f4e6c1781913f350",
+      "samples": 1000,
+      "actor_rounds": 5000
+    },
+    {
+      "model": "mistral7b_v03",
+      "dataset": "arc",
+      "role": "direct",
+      "source": "output/multi_acccollab/mistral_7b_instruct_v03_eval_arc_trials5_singlebos/roles/direct/eval/records.jsonl",
+      "sha256": "5faf5b1179d573ba1b816b55d62ab2a5ce76a633dce308102937e98657cdafe7",
+      "samples": 3548,
+      "actor_rounds": 17740
+    },
+    {
+      "model": "mistral7b_v03",
+      "dataset": "arc",
+      "role": "evidence",
+      "source": "output/multi_acccollab/mistral_7b_instruct_v03_eval_arc_trials5_singlebos/roles/evidence/eval/records.jsonl",
+      "sha256": "a0ce843af91f1433f1dc4950697559e181a36049cf72b949c8a077da34ace910",
+      "samples": 3548,
+      "actor_rounds": 17740
+    },
+    {
+      "model": "mistral7b_v03",
+      "dataset": "arc",
+      "role": "verification",
+      "source": "output/multi_acccollab/mistral_7b_instruct_v03_eval_arc_trials5_singlebos/roles/verification/eval/records.jsonl",
+      "sha256": "ace924fea7bad865a241aefa6f75f6009fc4a020bcd3e0519b2c2b2cd429ac4e",
+      "samples": 3548,
+      "actor_rounds": 17740
+    }
+  ]
+}

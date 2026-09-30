@@ -1,0 +1,237 @@
+{
+  "answer_extractor_sha256": "ecc5899445dc3c1764dad321b8bc91feabd4f865c601976896657b2c540b14c1",
+  "dataset": "sciq",
+  "decision_rule": "round_majority_then_fixed_direct",
+  "fingerprint": "96307bceb15dda7fd3bfbd3099c2251d6a9690a9da2e8d12b1fc7e038093f059",
+  "headline": {
+    "accuracy": 0.928,
+    "fallback_accuracy": 0.2,
+    "fallback_rate": 0.005,
+    "majority_conditional_accuracy": 0.9316582914572864,
+    "majority_coverage": 0.995,
+    "oracle_any_role_accuracy": 0.96,
+    "parse_rate": 1.0,
+    "per_role": {
+      "direct": {
+        "accuracy": 0.924,
+        "parse_rate": 1.0,
+        "truncation_rate": 0.0
+      },
+      "evidence": {
+        "accuracy": 0.912,
+        "parse_rate": 1.0,
+        "truncation_rate": 0.0
+      },
+      "verification": {
+        "accuracy": 0.917,
+        "parse_rate": 0.998,
+        "truncation_rate": 0.0
+      }
+    },
+    "round": 4,
+    "samples": 1000,
+    "unanimous_rate": 0.899
+  },
+  "implementation_version": "multi_acccollab_policy_lattice_v1",
+  "pair_agreement": {
+    "direct+evidence": {
+      "agree": 931,
+      "agree_correct": 887,
+      "conditional_accuracy": 0.9527389903329753,
+      "coverage": 0.931
+    },
+    "direct+verification": {
+      "agree": 942,
+      "agree_correct": 894,
+      "conditional_accuracy": 0.9490445859872612,
+      "coverage": 0.942
+    },
+    "evidence+verification": {
+      "agree": 920,
+      "agree_correct": 878,
+      "conditional_accuracy": 0.9543478260869566,
+      "coverage": 0.92
+    }
+  },
+  "per_round": [
+    {
+      "accuracy": 0.882,
+      "fallback_accuracy": 0.2,
+      "fallback_rate": 0.005,
+      "majority_conditional_accuracy": 0.8854271356783919,
+      "majority_coverage": 0.995,
+      "oracle_any_role_accuracy": 0.925,
+      "parse_rate": 1.0,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.881,
+          "parse_rate": 1.0,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.878,
+          "parse_rate": 1.0,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.892,
+          "parse_rate": 1.0,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 0,
+      "samples": 1000,
+      "unanimous_rate": 0.914
+    },
+    {
+      "accuracy": 0.922,
+      "fallback_accuracy": 0.5,
+      "fallback_rate": 0.004,
+      "majority_conditional_accuracy": 0.9236947791164659,
+      "majority_coverage": 0.996,
+      "oracle_any_role_accuracy": 0.952,
+      "parse_rate": 1.0,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.906,
+          "parse_rate": 1.0,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.908,
+          "parse_rate": 1.0,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.911,
+          "parse_rate": 1.0,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 1,
+      "samples": 1000,
+      "unanimous_rate": 0.891
+    },
+    {
+      "accuracy": 0.918,
+      "fallback_accuracy": 0.0,
+      "fallback_rate": 0.003,
+      "majority_conditional_accuracy": 0.9207622868605817,
+      "majority_coverage": 0.997,
+      "oracle_any_role_accuracy": 0.951,
+      "parse_rate": 1.0,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.91,
+          "parse_rate": 1.0,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.904,
+          "parse_rate": 1.0,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.914,
+          "parse_rate": 0.998,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 2,
+      "samples": 1000,
+      "unanimous_rate": 0.899
+    },
+    {
+      "accuracy": 0.925,
+      "fallback_accuracy": 0.0,
+      "fallback_rate": 0.004,
+      "majority_conditional_accuracy": 0.928714859437751,
+      "majority_coverage": 0.996,
+      "oracle_any_role_accuracy": 0.958,
+      "parse_rate": 1.0,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.915,
+          "parse_rate": 1.0,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.913,
+          "parse_rate": 1.0,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.918,
+          "parse_rate": 0.998,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 3,
+      "samples": 1000,
+      "unanimous_rate": 0.899
+    },
+    {
+      "accuracy": 0.928,
+      "fallback_accuracy": 0.2,
+      "fallback_rate": 0.005,
+      "majority_conditional_accuracy": 0.9316582914572864,
+      "majority_coverage": 0.995,
+      "oracle_any_role_accuracy": 0.96,
+      "parse_rate": 1.0,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.924,
+          "parse_rate": 1.0,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.912,
+          "parse_rate": 1.0,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.917,
+          "parse_rate": 0.998,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 4,
+      "samples": 1000,
+      "unanimous_rate": 0.899
+    }
+  ],
+  "pipeline": "multi_acccollab_ablation",
+  "rescored_from_raw_response": true,
+  "role_records": {
+    "direct": {
+      "path": "PROJECT_ROOT/output/ablations/llama3_8b_component_v1/policy_lattice/sciq/sft_trained_critic/roles/direct/records.jsonl",
+      "sha256": "8a2c38c5945c43dc57717ca624ced2d9e5e72f7fd8ce129d77dedb263b310101"
+    },
+    "evidence": {
+      "path": "PROJECT_ROOT/output/ablations/llama3_8b_component_v1/policy_lattice/sciq/sft_trained_critic/roles/evidence/records.jsonl",
+      "sha256": "bd4da109bf9d49993cd95bca204f2a3cf6282ad7d20a6bd9083bad839f61340a"
+    },
+    "verification": {
+      "path": "PROJECT_ROOT/output/ablations/llama3_8b_component_v1/policy_lattice/sciq/sft_trained_critic/roles/verification/records.jsonl",
+      "sha256": "268fdb3fed6832a2b1eb64c8a415576b6c923fc3e1a590f99372a059a2dae34b"
+    }
+  },
+  "roles": [
+    "direct",
+    "evidence",
+    "verification"
+  ],
+  "samples": 1000,
+  "schema_version": 1,
+  "source_sha256": {
+    "src/ablations/policy_lattice.py": "2226e636f79fcf8a288f4e8cd1fd48d67e1f07dd90b4c4e3ab31b0a24bf35d41",
+    "src/acccollab/evaluation.py": "4ad0b2a6f74b7f5b5e9463c4aab92b0fbcb86bd5c3ab8a3a0e1539cb48f0aa6c",
+    "src/acccollab/generation.py": "d7b2ee834fc9ef863a299a2032a05c4d052b240e0762e87b309408360119293c",
+    "src/acccollab/policy.py": "292dda79ae833647fe79004a79a580e39b2c4f22f1440eb34ec0f25fb32f4d4d",
+    "src/acccollab/prompts.py": "5677565cda96ab7bcaf3f7bd10f1b6724392083e69156806805538607e7b88b2",
+    "src/inference/vllm_server.py": "bb42973779d96cf095f53fba0ac54c62f678dd112155c85ff40c40e41962fba9",
+    "src/parsing/answer_extractor.py": "ecc5899445dc3c1764dad321b8bc91feabd4f865c601976896657b2c540b14c1"
+  },
+  "uses_judge": false,
+  "variant": "sft_trained_critic"
+}

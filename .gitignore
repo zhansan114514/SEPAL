@@ -1,0 +1,43 @@
+# Local environments, credentials, and editor files
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.pem
+*.key
+
+# Python caches and build products
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# New runs, private benchmark inputs, and model artifacts
+audit/
+rerun-workspace/
+models/
+benchmark_data/
+checkpoints/
+output/
+outputs/
+experiments/
+logs/
+wandb/
+*.log
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Released results/, including compact .jsonl.gz records, remain tracked.

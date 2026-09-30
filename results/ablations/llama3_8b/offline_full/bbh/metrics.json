@@ -1,0 +1,228 @@
+{
+  "answer_extractor_sha256": "ecc5899445dc3c1764dad321b8bc91feabd4f865c601976896657b2c540b14c1",
+  "dataset": "bbh",
+  "decision_rule": "round_majority_then_fixed_direct",
+  "fingerprint": "d2bce38f2f4288ac3fd41a4256049fb838687e7fe3df1aabc224cec42f96cbd5",
+  "headline": {
+    "accuracy": 0.5666666666666667,
+    "fallback_accuracy": 0.2196969696969697,
+    "fallback_rate": 0.10476190476190476,
+    "majority_conditional_accuracy": 0.6072695035460993,
+    "majority_coverage": 0.8952380952380953,
+    "oracle_any_role_accuracy": 0.7563492063492063,
+    "parse_rate": 0.9976190476190476,
+    "per_role": {
+      "direct": {
+        "accuracy": 0.5380952380952381,
+        "parse_rate": 0.9880952380952381,
+        "truncation_rate": 0.0
+      },
+      "evidence": {
+        "accuracy": 0.5206349206349207,
+        "parse_rate": 0.9888888888888889,
+        "truncation_rate": 0.0
+      },
+      "verification": {
+        "accuracy": 0.5619047619047619,
+        "parse_rate": 0.9984126984126984,
+        "truncation_rate": 0.0
+      }
+    },
+    "round": 4,
+    "samples": 1260,
+    "unanimous_rate": 0.4396825396825397
+  },
+  "implementation_version": "multi_acccollab_policy_lattice_v1",
+  "pair_agreement": {
+    "direct+evidence": {
+      "agree": 755,
+      "agree_correct": 497,
+      "conditional_accuracy": 0.6582781456953642,
+      "coverage": 0.5992063492063492
+    },
+    "direct+verification": {
+      "agree": 733,
+      "agree_correct": 499,
+      "conditional_accuracy": 0.6807639836289222,
+      "coverage": 0.5817460317460318
+    },
+    "evidence+verification": {
+      "agree": 748,
+      "agree_correct": 497,
+      "conditional_accuracy": 0.6644385026737968,
+      "coverage": 0.5936507936507937
+    }
+  },
+  "per_round": [
+    {
+      "accuracy": 0.5134920634920634,
+      "fallback_accuracy": 0.13513513513513514,
+      "fallback_rate": 0.05873015873015873,
+      "majority_conditional_accuracy": 0.5370994940978078,
+      "majority_coverage": 0.9412698412698413,
+      "oracle_any_role_accuracy": 0.696031746031746,
+      "parse_rate": 1.0,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.4880952380952381,
+          "parse_rate": 1.0,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.4793650793650794,
+          "parse_rate": 0.9880952380952381,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.5515873015873016,
+          "parse_rate": 0.9912698412698413,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 0,
+      "samples": 1260,
+      "unanimous_rate": 0.5142857142857142
+    },
+    {
+      "accuracy": 0.5714285714285714,
+      "fallback_accuracy": 0.19130434782608696,
+      "fallback_rate": 0.09126984126984126,
+      "majority_conditional_accuracy": 0.6096069868995633,
+      "majority_coverage": 0.9087301587301587,
+      "oracle_any_role_accuracy": 0.7531746031746032,
+      "parse_rate": 0.9952380952380953,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.5357142857142857,
+          "parse_rate": 0.9825396825396825,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.5277777777777778,
+          "parse_rate": 0.9873015873015873,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.5611111111111111,
+          "parse_rate": 0.9944444444444445,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 1,
+      "samples": 1260,
+      "unanimous_rate": 0.43492063492063493
+    },
+    {
+      "accuracy": 0.5682539682539682,
+      "fallback_accuracy": 0.21052631578947367,
+      "fallback_rate": 0.09047619047619047,
+      "majority_conditional_accuracy": 0.6038394415357766,
+      "majority_coverage": 0.9095238095238095,
+      "oracle_any_role_accuracy": 0.7603174603174603,
+      "parse_rate": 0.996031746031746,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.526984126984127,
+          "parse_rate": 0.9841269841269841,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.5325396825396825,
+          "parse_rate": 0.9880952380952381,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.5634920634920635,
+          "parse_rate": 0.996031746031746,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 2,
+      "samples": 1260,
+      "unanimous_rate": 0.42936507936507934
+    },
+    {
+      "accuracy": 0.580952380952381,
+      "fallback_accuracy": 0.22522522522522523,
+      "fallback_rate": 0.0880952380952381,
+      "majority_conditional_accuracy": 0.6153176675369887,
+      "majority_coverage": 0.9119047619047619,
+      "oracle_any_role_accuracy": 0.7603174603174603,
+      "parse_rate": 0.9952380952380953,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.530952380952381,
+          "parse_rate": 0.9841269841269841,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.5436507936507936,
+          "parse_rate": 0.9888888888888889,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.569047619047619,
+          "parse_rate": 0.9968253968253968,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 3,
+      "samples": 1260,
+      "unanimous_rate": 0.45
+    },
+    {
+      "accuracy": 0.5666666666666667,
+      "fallback_accuracy": 0.2196969696969697,
+      "fallback_rate": 0.10476190476190476,
+      "majority_conditional_accuracy": 0.6072695035460993,
+      "majority_coverage": 0.8952380952380953,
+      "oracle_any_role_accuracy": 0.7563492063492063,
+      "parse_rate": 0.9976190476190476,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.5380952380952381,
+          "parse_rate": 0.9880952380952381,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.5206349206349207,
+          "parse_rate": 0.9888888888888889,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.5619047619047619,
+          "parse_rate": 0.9984126984126984,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 4,
+      "samples": 1260,
+      "unanimous_rate": 0.4396825396825397
+    }
+  ],
+  "pipeline": "multi_acccollab_ablation",
+  "rescored_from_raw_response": true,
+  "role_records": {
+    "direct": {
+      "path": "output/multi_acccollab/llama3_8b_instruct_eval_bbh/roles/direct/eval/records.jsonl",
+      "sha256": "6dba03f20f3e1187766c99a69da7b68a8bb75d8b7cc49504330fd18728456b1d"
+    },
+    "evidence": {
+      "path": "output/multi_acccollab/llama3_8b_instruct_eval_bbh/roles/evidence/eval/records.jsonl",
+      "sha256": "7e8c69dba00fd2ff79cd3cc83052ee0781170523b29d3096859c8dbf0e58dc38"
+    },
+    "verification": {
+      "path": "output/multi_acccollab/llama3_8b_instruct_eval_bbh/roles/verification/eval/records.jsonl",
+      "sha256": "29747bbefe9865c331e39998e06fb7c743c2b0baa1619659c302434b29d97cf2"
+    }
+  },
+  "roles": [
+    "direct",
+    "evidence",
+    "verification"
+  ],
+  "samples": 1260,
+  "schema_version": 1,
+  "uses_judge": false,
+  "variant": "full_trained_rounds"
+}

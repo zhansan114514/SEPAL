@@ -1,0 +1,74 @@
+run:
+  name: multi_acccollab_mistral_7b_instruct_v03_eval_sciq
+  output_dir: output/multi_acccollab/mistral_7b_instruct_v03_eval_sciq_trials5_singlebos
+  seed: 42
+base_acccollab_config: output/benchmark_matrix_phi_mistral_a800/mistral_v03/resolved_configs/mistral_7b_instruct_v03/original_eval_sciq.yaml
+roles:
+- name: direct
+  actor_instruction: Solve directly and concisely. Identify the decisive fact or calculation
+    and avoid adding speculative alternatives once the answer is supported.
+  critic_instruction: Check the decisive fact or calculation in the Actor response.
+    Supply only brief missing details that improve correctness, following the original
+    ACC-Collab critic style.
+  device: 0
+  seed_offset: 0
+- name: evidence
+  actor_instruction: Ground the answer in the most relevant definition, fact, passage
+    evidence, or domain principle before selecting the final option.
+  critic_instruction: Check whether the Actor used the relevant evidence or principle
+    correctly and add only brief corrective evidence in the original ACC-Collab critic
+    style.
+  device: 1
+  seed_offset: 10000
+- name: verification
+  actor_instruction: Independently solve the problem, then verify the selected option
+    against the main alternatives or likely failure mode before stating the final
+    answer.
+  critic_instruction: Independently verify the Actor answer and its strongest alternative,
+    then provide only brief details that improve correctness in the original ACC-Collab
+    critic style.
+  device: 2
+  seed_offset: 20000
+sft:
+  data:
+    split: train
+    samples: 10000
+    strategy: random
+    expected_samples: 10000
+  generation:
+    temperatures:
+    - 0.4
+    - 0.7
+    - 1.0
+    top_p: 0.9
+    max_tokens: 1024
+    enable_thinking: false
+  training:
+    min_examples_per_role: 256
+    learning_rate: 5.0e-05
+    batch_size: 4
+    gradient_accumulation_steps: 4
+    epochs: 1
+    max_length: 4096
+    warmup_ratio: 0.1
+    weight_decay: 0.01
+    max_grad_norm: 1.0
+    optim: adamw_torch
+    timeout_per_1k: 3600
+    checkpoint_steps: 100
+    checkpoint_total_limit: 1
+    resume_from_checkpoint: true
+runtime:
+  sft_generation_devices:
+  - 0
+  - 1
+  - 2
+  sft_generation_batch_size: 64
+  parallel_role_pipelines: true
+evaluation:
+  decision_rule: final_round_majority_then_fixed_direct
+  fallback_role: direct
+  use_judge: false
+  policy_source_output_dir: output/multi_acccollab/mistral_7b_instruct_v03_mmlu_sft10k_trials5_singlebos
+profile: cross_eval
+implementation_version: multi_acccollab_sft10k_majority_v1

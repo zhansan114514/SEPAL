@@ -1,0 +1,20 @@
+{
+  "accuracy": 0.5277777777777778,
+  "correct": 665,
+  "dataset": "bbh",
+  "decision_rule": "single_model_single_shot",
+  "method": "direct",
+  "model_name": "PROJECT_ROOT/models/Phi-4-mini-instruct",
+  "model_type": "phi4",
+  "parse_rate": 0.9912698412698413,
+  "parsed": 1249,
+  "pipeline": "inference_baseline",
+  "protocol_version": "acccollab_inference_baselines_v1",
+  "reused_from": "output/baselines/phi4_mini_instruct/bbh/debate/records.jsonl",
+  "samples": 1260,
+  "schema_version": 1,
+  "stage_fingerprint": "39d4f7bc7b77fd04b476988098d9fc9addda404a5b8569818ccf4d29beb0cacc",
+  "trials": 1,
+  "truncated": 0,
+  "truncation_rate": 0.0
+}

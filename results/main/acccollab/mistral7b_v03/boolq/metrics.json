@@ -1,0 +1,185 @@
+{
+  "aggregate": {
+    "decision_rule": "single_final_actor_answer",
+    "final_accuracy": {
+      "ci95_normal_half_width": 0.0,
+      "count": 1,
+      "mean": 0.8018348623853211,
+      "sample_std": 0.0,
+      "standard_error": 0.0
+    },
+    "final_parse_rate": {
+      "ci95_normal_half_width": 0.0,
+      "count": 1,
+      "mean": 0.9892966360856269,
+      "sample_std": 0.0,
+      "standard_error": 0.0
+    },
+    "final_truncation_rate": {
+      "ci95_normal_half_width": 0.0,
+      "count": 1,
+      "mean": 0.0,
+      "sample_std": 0.0,
+      "standard_error": 0.0
+    },
+    "per_round_accuracy": [
+      {
+        "ci95_normal_half_width": 0.0,
+        "count": 1,
+        "mean": 0.7678899082568807,
+        "round": 0,
+        "sample_std": 0.0,
+        "standard_error": 0.0
+      },
+      {
+        "ci95_normal_half_width": 0.0,
+        "count": 1,
+        "mean": 0.7923547400611621,
+        "round": 1,
+        "sample_std": 0.0,
+        "standard_error": 0.0
+      },
+      {
+        "ci95_normal_half_width": 0.0,
+        "count": 1,
+        "mean": 0.8027522935779816,
+        "round": 2,
+        "sample_std": 0.0,
+        "standard_error": 0.0
+      },
+      {
+        "ci95_normal_half_width": 0.0,
+        "count": 1,
+        "mean": 0.8055045871559633,
+        "round": 3,
+        "sample_std": 0.0,
+        "standard_error": 0.0
+      },
+      {
+        "ci95_normal_half_width": 0.0,
+        "count": 1,
+        "mean": 0.8018348623853211,
+        "round": 4,
+        "sample_std": 0.0,
+        "standard_error": 0.0
+      }
+    ],
+    "pipeline": "acccollab_original",
+    "schema_version": 1,
+    "trial_values": [
+      {
+        "accuracy": 0.8018348623853211,
+        "parse_rate": 0.9892966360856269,
+        "trial": 0,
+        "truncation_rate": 0.0
+      }
+    ],
+    "trials": 1
+  },
+  "decision_rule": "single_final_actor_answer",
+  "fingerprint": "ba2d400ce91915ba1761ade787e0fcc9beb7af3762a391d027178afb1b1e4921",
+  "generation_audit": {
+    "assessment": {
+      "fail_rate": 0.01,
+      "max_model_len": 8192,
+      "note": "Recommendations require a smoke rerun because available prompt context varies per request.",
+      "recommended_max_tokens_by_limit": {
+        "1024": 1024
+      },
+      "status": "pass",
+      "warn_rate": 0.001
+    },
+    "by_max_tokens": {
+      "1024": {
+        "generated_tokens_max": 404,
+        "generated_tokens_mean": 75.74412844036698,
+        "generated_tokens_p50": 72,
+        "generated_tokens_p95": 135,
+        "generated_tokens_p99": 170,
+        "length_finished": 0,
+        "length_truncation_rate": 0.0,
+        "outputs": 32700
+      }
+    },
+    "generated_tokens_max": 404,
+    "generated_tokens_mean": 75.74412844036698,
+    "generated_tokens_p50": 72,
+    "generated_tokens_p95": 135,
+    "generated_tokens_p99": 170,
+    "length_finished": 0,
+    "length_truncation_rate": 0.0,
+    "outputs": 32700,
+    "schema_version": 1
+  },
+  "headline_metric": {
+    "name": "round_4_single_actor_accuracy",
+    "value": {
+      "ci95_normal_half_width": 0.0,
+      "count": 1,
+      "mean": 0.8018348623853211,
+      "sample_std": 0.0,
+      "standard_error": 0.0
+    }
+  },
+  "num_shards": 1,
+  "paper_comparison": null,
+  "pipeline": "acccollab_original",
+  "policy_state": {
+    "actor_adapter": "output/acccollab/mistral_7b_instruct_v03_mmlu_validation1531_trials5_singlebos/adapters/iteration_01/actor_adapter",
+    "actor_identity": {
+      "kind": "directory",
+      "path": "output/acccollab/mistral_7b_instruct_v03_mmlu_validation1531_trials5_singlebos/adapters/iteration_01/actor_adapter",
+      "selected": {
+        "_SUCCESS": {
+          "sha256": "6009e08824d360b350effd99cc4bc84cfdf58210ef9516bb22a8e49d08c88ade",
+          "size": 426
+        },
+        "adapter_config.json": {
+          "sha256": "0b2eb47e7b6d5c56ae178d9cd0f95c9cdb34f9cf8c4b97d79c51aa22c0b392bb",
+          "size": 1136
+        },
+        "adapter_model.safetensors": {
+          "size": 2684416208
+        }
+      }
+    },
+    "actor_iteration": 1,
+    "actor_policy": "output/acccollab/mistral_7b_instruct_v03_mmlu_validation1531_trials5_singlebos/adapters/iteration_01/actor_adapter",
+    "critic_adapter": "output/acccollab/mistral_7b_instruct_v03_mmlu_validation1531_trials5_singlebos/adapters/iteration_01/critic_adapter",
+    "critic_identity": {
+      "kind": "directory",
+      "path": "output/acccollab/mistral_7b_instruct_v03_mmlu_validation1531_trials5_singlebos/adapters/iteration_01/critic_adapter",
+      "selected": {
+        "_SUCCESS": {
+          "sha256": "05f4a5462fc4a6afa7456bf1c94af4f092bd23d6a0699d334832c11f76ea97c4",
+          "size": 427
+        },
+        "adapter_config.json": {
+          "sha256": "864715072b665a37f4f1333cbce7e59c0b5a30285047e7cfa90721e38d5fe7d6",
+          "size": 1136
+        },
+        "adapter_model.safetensors": {
+          "size": 2684416208
+        }
+      }
+    },
+    "critic_iteration": 1,
+    "critic_policy": "output/acccollab/mistral_7b_instruct_v03_mmlu_validation1531_trials5_singlebos/adapters/iteration_01/critic_adapter"
+  },
+  "samples": 3270,
+  "schema_version": 1,
+  "scope": "merged",
+  "shards": [
+    {
+      "num_shards": 1,
+      "samples": 3270,
+      "shard_idx": 0,
+      "stage_fingerprint": "ba2d400ce91915ba1761ade787e0fcc9beb7af3762a391d027178afb1b1e4921",
+      "trials": 1
+    }
+  ],
+  "stage": "evaluate",
+  "trials": 1,
+  "uses_judge_fallback": false,
+  "uses_majority_vote": false
+}

@@ -1,0 +1,5 @@
+contrast,label,upper_variant,lower_variant,mean_change_points,positive_cells
+inference_interaction,Inference interaction,Full-R4,Full-R0,3.718360162898258,23
+base_critic_interaction,Base Critic interaction,SFT+Base-C,SFT-only,3.40007675591767,23
+actor_dpo_solo,Actor DPO (solo),Full-R0,SFT-only,0.2561588170828989,17
+full_vs_sft,Full system vs. SFT-only,Full-R4,SFT-only,3.9745189799811573,24

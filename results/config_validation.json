@@ -1,0 +1,206 @@
+{
+  "status": "pass",
+  "validated_configurations": 50,
+  "records": [
+    {
+      "config": "configs/reproduction/gemma2_2b/multi_eval_arc.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/gemma2_2b/multi_eval_bbh.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/gemma2_2b/multi_eval_boolq.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/gemma2_2b/multi_eval_sciq.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/gemma2_2b/multi_mmlu_train.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/gemma2_2b/original_eval_arc.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/gemma2_2b/original_eval_bbh.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/gemma2_2b/original_eval_boolq.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/gemma2_2b/original_eval_sciq.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/gemma2_2b/original_mmlu_train.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/llama3_8b/multi_eval_arc.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/llama3_8b/multi_eval_bbh.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/llama3_8b/multi_eval_boolq.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/llama3_8b/multi_eval_sciq.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/llama3_8b/multi_mmlu_train.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/llama3_8b/original_eval_arc.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/llama3_8b/original_eval_bbh.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/llama3_8b/original_eval_boolq.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/llama3_8b/original_eval_sciq.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/llama3_8b/original_mmlu_train.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/mistral7b_v03/multi_eval_arc.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/mistral7b_v03/multi_eval_bbh.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/mistral7b_v03/multi_eval_boolq.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/mistral7b_v03/multi_eval_sciq.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/mistral7b_v03/multi_mmlu_train.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/mistral7b_v03/original_eval_arc.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/mistral7b_v03/original_eval_bbh.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/mistral7b_v03/original_eval_boolq.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/mistral7b_v03/original_eval_sciq.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/mistral7b_v03/original_mmlu_train.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/phi4_mini/multi_eval_arc.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/phi4_mini/multi_eval_bbh.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/phi4_mini/multi_eval_boolq.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/phi4_mini/multi_eval_sciq.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/phi4_mini/multi_mmlu_train.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/phi4_mini/original_eval_arc.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/phi4_mini/original_eval_bbh.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/phi4_mini/original_eval_boolq.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/phi4_mini/original_eval_sciq.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/phi4_mini/original_mmlu_train.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/qwen25_3b/multi_eval_arc.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/qwen25_3b/multi_eval_bbh.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/qwen25_3b/multi_eval_boolq.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/qwen25_3b/multi_eval_sciq.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/qwen25_3b/multi_mmlu_train.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/qwen25_3b/original_eval_arc.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/qwen25_3b/original_eval_bbh.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/qwen25_3b/original_eval_boolq.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/qwen25_3b/original_eval_sciq.yaml",
+      "status": "pass"
+    },
+    {
+      "config": "configs/reproduction/qwen25_3b/original_mmlu_train.yaml",
+      "status": "pass"
+    }
+  ]
+}

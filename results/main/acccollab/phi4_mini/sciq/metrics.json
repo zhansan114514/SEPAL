@@ -1,0 +1,185 @@
+{
+  "aggregate": {
+    "decision_rule": "single_final_actor_answer",
+    "final_accuracy": {
+      "ci95_normal_half_width": 0.0,
+      "count": 1,
+      "mean": 0.918,
+      "sample_std": 0.0,
+      "standard_error": 0.0
+    },
+    "final_parse_rate": {
+      "ci95_normal_half_width": 0.0,
+      "count": 1,
+      "mean": 1.0,
+      "sample_std": 0.0,
+      "standard_error": 0.0
+    },
+    "final_truncation_rate": {
+      "ci95_normal_half_width": 0.0,
+      "count": 1,
+      "mean": 0.0,
+      "sample_std": 0.0,
+      "standard_error": 0.0
+    },
+    "per_round_accuracy": [
+      {
+        "ci95_normal_half_width": 0.0,
+        "count": 1,
+        "mean": 0.914,
+        "round": 0,
+        "sample_std": 0.0,
+        "standard_error": 0.0
+      },
+      {
+        "ci95_normal_half_width": 0.0,
+        "count": 1,
+        "mean": 0.919,
+        "round": 1,
+        "sample_std": 0.0,
+        "standard_error": 0.0
+      },
+      {
+        "ci95_normal_half_width": 0.0,
+        "count": 1,
+        "mean": 0.919,
+        "round": 2,
+        "sample_std": 0.0,
+        "standard_error": 0.0
+      },
+      {
+        "ci95_normal_half_width": 0.0,
+        "count": 1,
+        "mean": 0.924,
+        "round": 3,
+        "sample_std": 0.0,
+        "standard_error": 0.0
+      },
+      {
+        "ci95_normal_half_width": 0.0,
+        "count": 1,
+        "mean": 0.918,
+        "round": 4,
+        "sample_std": 0.0,
+        "standard_error": 0.0
+      }
+    ],
+    "pipeline": "acccollab_original",
+    "schema_version": 1,
+    "trial_values": [
+      {
+        "accuracy": 0.918,
+        "parse_rate": 1.0,
+        "trial": 0,
+        "truncation_rate": 0.0
+      }
+    ],
+    "trials": 1
+  },
+  "decision_rule": "single_final_actor_answer",
+  "fingerprint": "98b78e328ea80be095d41a77597c2d6b703538ef0feed220434e0a730390ca18",
+  "generation_audit": {
+    "assessment": {
+      "fail_rate": 0.01,
+      "max_model_len": 4096,
+      "note": "Recommendations require a smoke rerun because available prompt context varies per request.",
+      "recommended_max_tokens_by_limit": {
+        "1024": 1024
+      },
+      "status": "pass",
+      "warn_rate": 0.001
+    },
+    "by_max_tokens": {
+      "1024": {
+        "generated_tokens_max": 215,
+        "generated_tokens_mean": 39.8049,
+        "generated_tokens_p50": 36,
+        "generated_tokens_p95": 79,
+        "generated_tokens_p99": 108,
+        "length_finished": 0,
+        "length_truncation_rate": 0.0,
+        "outputs": 10000
+      }
+    },
+    "generated_tokens_max": 215,
+    "generated_tokens_mean": 39.8049,
+    "generated_tokens_p50": 36,
+    "generated_tokens_p95": 79,
+    "generated_tokens_p99": 108,
+    "length_finished": 0,
+    "length_truncation_rate": 0.0,
+    "outputs": 10000,
+    "schema_version": 1
+  },
+  "headline_metric": {
+    "name": "round_4_single_actor_accuracy",
+    "value": {
+      "ci95_normal_half_width": 0.0,
+      "count": 1,
+      "mean": 0.918,
+      "sample_std": 0.0,
+      "standard_error": 0.0
+    }
+  },
+  "num_shards": 1,
+  "paper_comparison": null,
+  "pipeline": "acccollab_original",
+  "policy_state": {
+    "actor_adapter": "output/acccollab/phi4_mini_instruct_mmlu_validation1531/adapters/iteration_01/actor_adapter",
+    "actor_identity": {
+      "kind": "directory",
+      "path": "output/acccollab/phi4_mini_instruct_mmlu_validation1531/adapters/iteration_01/actor_adapter",
+      "selected": {
+        "_SUCCESS": {
+          "sha256": "d2771576ae7b43fce276ce108619cdee41c36ec121671beb10bddc8fa8cec197",
+          "size": 398
+        },
+        "adapter_config.json": {
+          "sha256": "92316576999a8dc80ce8be6c608ff00484e74ef6279a903ba5961106394fc588",
+          "size": 1093
+        },
+        "adapter_model.safetensors": {
+          "size": 1476430392
+        }
+      }
+    },
+    "actor_iteration": 1,
+    "actor_policy": "output/acccollab/phi4_mini_instruct_mmlu_validation1531/adapters/iteration_01/actor_adapter",
+    "critic_adapter": "output/acccollab/phi4_mini_instruct_mmlu_validation1531/adapters/iteration_01/critic_adapter",
+    "critic_identity": {
+      "kind": "directory",
+      "path": "output/acccollab/phi4_mini_instruct_mmlu_validation1531/adapters/iteration_01/critic_adapter",
+      "selected": {
+        "_SUCCESS": {
+          "sha256": "81cc4983c0a08c5ad543cc9c41ad35f29ad9ca5a376eb4e835a009c89072210c",
+          "size": 399
+        },
+        "adapter_config.json": {
+          "sha256": "19240df626463d345964aa209c56562d261ebb2fbb5b8d07259b4e1d425c0a43",
+          "size": 1093
+        },
+        "adapter_model.safetensors": {
+          "size": 1476430392
+        }
+      }
+    },
+    "critic_iteration": 1,
+    "critic_policy": "output/acccollab/phi4_mini_instruct_mmlu_validation1531/adapters/iteration_01/critic_adapter"
+  },
+  "samples": 1000,
+  "schema_version": 1,
+  "scope": "merged",
+  "shards": [
+    {
+      "num_shards": 1,
+      "samples": 1000,
+      "shard_idx": 0,
+      "stage_fingerprint": "98b78e328ea80be095d41a77597c2d6b703538ef0feed220434e0a730390ca18",
+      "trials": 1
+    }
+  ],
+  "stage": "evaluate",
+  "trials": 1,
+  "uses_judge_fallback": false,
+  "uses_majority_vote": false
+}

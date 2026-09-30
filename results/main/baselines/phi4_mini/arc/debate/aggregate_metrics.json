@@ -1,0 +1,75 @@
+{
+  "dataset": "arc",
+  "decision_rule": "single_final_actor_answer",
+  "final": {
+    "accuracy": 0.9270011273957159,
+    "correct": 3289,
+    "parse_rate": 1.0,
+    "parsed": 3548,
+    "round": 4,
+    "samples": 3548,
+    "source": "round_4_single_actor",
+    "truncated": 0,
+    "truncation_rate": 0.0
+  },
+  "method": "actor_critic_debate",
+  "model_name": "PROJECT_ROOT/models/Phi-4-mini-instruct",
+  "model_type": "phi4",
+  "per_round": [
+    {
+      "accuracy": 0.8988162344983089,
+      "correct": 3189,
+      "parse_rate": 0.9991544532130778,
+      "parsed": 3545,
+      "round": 0,
+      "samples": 3548,
+      "truncated": 0,
+      "truncation_rate": 0.0
+    },
+    {
+      "accuracy": 0.9126268320180383,
+      "correct": 3238,
+      "parse_rate": 0.9997181510710259,
+      "parsed": 3547,
+      "round": 1,
+      "samples": 3548,
+      "truncated": 0,
+      "truncation_rate": 0.0
+    },
+    {
+      "accuracy": 0.9210822998872604,
+      "correct": 3268,
+      "parse_rate": 0.9997181510710259,
+      "parsed": 3547,
+      "round": 2,
+      "samples": 3548,
+      "truncated": 0,
+      "truncation_rate": 0.0
+    },
+    {
+      "accuracy": 0.9205186020293122,
+      "correct": 3266,
+      "parse_rate": 0.9991544532130778,
+      "parsed": 3545,
+      "round": 3,
+      "samples": 3548,
+      "truncated": 0,
+      "truncation_rate": 0.0
+    },
+    {
+      "accuracy": 0.9270011273957159,
+      "correct": 3289,
+      "parse_rate": 1.0,
+      "parsed": 3548,
+      "round": 4,
+      "samples": 3548,
+      "truncated": 0,
+      "truncation_rate": 0.0
+    }
+  ],
+  "pipeline": "inference_baseline",
+  "protocol_version": "acccollab_inference_baselines_v1",
+  "schema_version": 1,
+  "stage_fingerprint": "92e954da0c48f35ccfe672f786578114b291833fa41f4856fdaa89781af7095d",
+  "trials": 1
+}

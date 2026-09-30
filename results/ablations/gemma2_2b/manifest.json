@@ -1,0 +1,447 @@
+{
+  "created_at": "2026-07-26T04:01:25.067829+00:00",
+  "datasets": {
+    "arc": {
+      "expected_samples": 3548,
+      "logical_shards": 3,
+      "roles": {
+        "direct": {
+          "config": {
+            "path": "output/ablations/gemma2_2b_component_v1/resolved_configs/arc/direct.yaml",
+            "sha256": "59cd967f6dd809c038ce91d456dbcce97d803a877288356b82d33b6a0fa18175",
+            "size": 2616
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/gemma2_2b_instruct_eval_arc/resolved_role_configs/direct.yaml",
+            "sha256": "f544e08445531ce8a21e4401eb154154c5e6906fe5108bfcff4432f9a9d94eec",
+            "size": 2703
+          }
+        },
+        "evidence": {
+          "config": {
+            "path": "output/ablations/gemma2_2b_component_v1/resolved_configs/arc/evidence.yaml",
+            "sha256": "f4532c174b738efc61a5fd27bcfbaa6cbfeb2b9c077f23c06dd7fe4ad6d51ce6",
+            "size": 2597
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/gemma2_2b_instruct_eval_arc/resolved_role_configs/evidence.yaml",
+            "sha256": "e459be9889ad610bccdd707df9e7f839dd08b10c8062bea138580309f903e38b",
+            "size": 2686
+          }
+        },
+        "verification": {
+          "config": {
+            "path": "output/ablations/gemma2_2b_component_v1/resolved_configs/arc/verification.yaml",
+            "sha256": "22b4f967e427eb2af4069bcdfecc7e0855bc4490ee977e69994528f27358da92",
+            "size": 2651
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/gemma2_2b_instruct_eval_arc/resolved_role_configs/verification.yaml",
+            "sha256": "fd03d3bf50c8a8823ce29adda056684d249f0d67cbcbd1ba3b310896b393af9a",
+            "size": 2744
+          }
+        }
+      }
+    },
+    "bbh": {
+      "expected_samples": 1260,
+      "logical_shards": 1,
+      "roles": {
+        "direct": {
+          "config": {
+            "path": "output/ablations/gemma2_2b_component_v1/resolved_configs/bbh/direct.yaml",
+            "sha256": "7ee09048dc77613343b6f76ee595eb13eb7ed811cccce1ccf26dcd1d30f191bc",
+            "size": 2616
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/gemma2_2b_instruct_eval_bbh/resolved_role_configs/direct.yaml",
+            "sha256": "f053abaaf31d49c6b1913169dcbd328f8b4508f595e4db63ef18ceb6220ae7dc",
+            "size": 2703
+          }
+        },
+        "evidence": {
+          "config": {
+            "path": "output/ablations/gemma2_2b_component_v1/resolved_configs/bbh/evidence.yaml",
+            "sha256": "155f9e8de965b7bfb169511f1ca8c2a11b879c5e15c5d5adcc32ee0e5bee74a1",
+            "size": 2597
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/gemma2_2b_instruct_eval_bbh/resolved_role_configs/evidence.yaml",
+            "sha256": "128329aefa876d37d9c33adf7d352c5b8ce53ac46296b9c04c7cdd9d57e9a7a2",
+            "size": 2686
+          }
+        },
+        "verification": {
+          "config": {
+            "path": "output/ablations/gemma2_2b_component_v1/resolved_configs/bbh/verification.yaml",
+            "sha256": "6c5adc22ffcaf36e7dab23d9dd23e8e7201802e34b971ead5f93de971af105d0",
+            "size": 2651
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/gemma2_2b_instruct_eval_bbh/resolved_role_configs/verification.yaml",
+            "sha256": "877fbc742480bc4a564ca5f0bcc33b85c5ec714aec98300a5ed994476f9e227a",
+            "size": 2744
+          }
+        }
+      }
+    },
+    "boolq": {
+      "expected_samples": 3270,
+      "logical_shards": 3,
+      "roles": {
+        "direct": {
+          "config": {
+            "path": "output/ablations/gemma2_2b_component_v1/resolved_configs/boolq/direct.yaml",
+            "sha256": "5be4662b4a85efe6f7e36fec01b5fd59c9fe458be95e4a24e827c4d3057593eb",
+            "size": 2628
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/gemma2_2b_instruct_eval_boolq/resolved_role_configs/direct.yaml",
+            "sha256": "17bcbb005fc222a7c270afa63e599c5984259d3b5444bcec60d68d1610d5641d",
+            "size": 2715
+          }
+        },
+        "evidence": {
+          "config": {
+            "path": "output/ablations/gemma2_2b_component_v1/resolved_configs/boolq/evidence.yaml",
+            "sha256": "273fb7551ab5b573d3a1fdd4bba816f9481b88cfbbf58ba1fa28700b73be8a93",
+            "size": 2609
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/gemma2_2b_instruct_eval_boolq/resolved_role_configs/evidence.yaml",
+            "sha256": "cfe4ef75414c93c354cc300d8bfb1d90c46d1f2b8194bfc3d7a42561509ab026",
+            "size": 2698
+          }
+        },
+        "verification": {
+          "config": {
+            "path": "output/ablations/gemma2_2b_component_v1/resolved_configs/boolq/verification.yaml",
+            "sha256": "e2891146f367a5fb2a0dfa8297ac23b06386122833b0089bbdc9bccec5ea647b",
+            "size": 2663
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/gemma2_2b_instruct_eval_boolq/resolved_role_configs/verification.yaml",
+            "sha256": "d846e588e207b38006d3fa22e986f43774818ed1e4420dfcdd9480e8d10966ec",
+            "size": 2756
+          }
+        }
+      }
+    },
+    "mmlu": {
+      "expected_samples": 14042,
+      "logical_shards": 4,
+      "roles": {
+        "direct": {
+          "config": {
+            "path": "output/ablations/gemma2_2b_component_v1/resolved_configs/mmlu/direct.yaml",
+            "sha256": "db3afde28356e6b1a4f32781af5c8d47986826538c172c8a8ad4068c3c945ebd",
+            "size": 2628
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/resolved_role_configs/direct.yaml",
+            "sha256": "882d19815df09c791149f34c1f5b1462a9702467186f8c130258b2ebed3f1849",
+            "size": 2653
+          }
+        },
+        "evidence": {
+          "config": {
+            "path": "output/ablations/gemma2_2b_component_v1/resolved_configs/mmlu/evidence.yaml",
+            "sha256": "6ecff8f04a1bf6f263a4c63ee5c7335553f4b2044cd493b24e7b2afd126c48e4",
+            "size": 2609
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/resolved_role_configs/evidence.yaml",
+            "sha256": "c627205490c85e626b9cfaf425bd1c97683802bcd20c68ec116d97440d8c246e",
+            "size": 2634
+          }
+        },
+        "verification": {
+          "config": {
+            "path": "output/ablations/gemma2_2b_component_v1/resolved_configs/mmlu/verification.yaml",
+            "sha256": "ad36bd3e25e014760bfd66daee4138d64a2bae205b00e223f7b0d6493d8045ed",
+            "size": 2663
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/resolved_role_configs/verification.yaml",
+            "sha256": "249af78b0e78051ef2b51ab3336036a12ed187460bcf927881cce7588fedcaef",
+            "size": 2688
+          }
+        }
+      }
+    },
+    "sciq": {
+      "expected_samples": 1000,
+      "logical_shards": 1,
+      "roles": {
+        "direct": {
+          "config": {
+            "path": "output/ablations/gemma2_2b_component_v1/resolved_configs/sciq/direct.yaml",
+            "sha256": "2cc909d7eb9e4e97f2c57403e01c68bf98732a690b4157850a954f7937bb4854",
+            "size": 2614
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/gemma2_2b_instruct_eval_sciq/resolved_role_configs/direct.yaml",
+            "sha256": "89c4304b457404942e2330a3d06d83a523981fd8f06c82ae07ae251f4306fae8",
+            "size": 2701
+          }
+        },
+        "evidence": {
+          "config": {
+            "path": "output/ablations/gemma2_2b_component_v1/resolved_configs/sciq/evidence.yaml",
+            "sha256": "0e3efd894294d69d32fcf1e8f965fb3f78a8b79d95d418ebba0d5d7c6d307be0",
+            "size": 2595
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/gemma2_2b_instruct_eval_sciq/resolved_role_configs/evidence.yaml",
+            "sha256": "e1c1d82daa680e8b0698c63570571b8fe13dde6cb3673278ebce12243bc6809d",
+            "size": 2684
+          }
+        },
+        "verification": {
+          "config": {
+            "path": "output/ablations/gemma2_2b_component_v1/resolved_configs/sciq/verification.yaml",
+            "sha256": "ce4c82ec8006f042ef30a55e77288930433e2145cb6e878c28dffb6862e408af",
+            "size": 2649
+          },
+          "source_config": {
+            "path": "output/multi_acccollab/gemma2_2b_instruct_eval_sciq/resolved_role_configs/verification.yaml",
+            "sha256": "6071ebc11deafeedf534e51382a7ea8ba276ee94a840ef4ad666e3caa30a8361",
+            "size": 2742
+          }
+        }
+      }
+    }
+  },
+  "fingerprint": "ea44ea74467346d4d39184a8df9a06d52ea00114d881cf55ad83e874a8b77798",
+  "implementation_version": "multi_acccollab_component_ablations_v1",
+  "model": {
+    "identity": {
+      "path": "PROJECT_ROOT/models/gemma-2-2b-it",
+      "selected": {
+        "config.json": {
+          "sha256": "eacec6c5ca317a87ed2c46789d9705b9274db5027e7ba59da739bfae23addb55",
+          "size": 838
+        },
+        "generation_config.json": {
+          "sha256": "a543a5d299bc2b20c52bd87ed174f561266510b57a392e12b5b5d758d798ce05",
+          "size": 187
+        },
+        "model.safetensors.index.json": {
+          "sha256": "ada0043f3e3b2e5ab2f445cad9c0fbbf9d91ad444675e6a82b822591c63abf5a",
+          "size": 24223
+        },
+        "tokenizer_config.json": {
+          "sha256": "cb32b7929c62608d46572e813112b3ad8a841fb98fdd6a4da8559e368a951c89",
+          "size": 46996
+        }
+      },
+      "total_weight_bytes": 5228717488,
+      "weight_files": [
+        {
+          "name": "model-00001-of-00002.safetensors",
+          "size": 4988025760
+        },
+        {
+          "name": "model-00002-of-00002.safetensors",
+          "size": 240691728
+        }
+      ]
+    },
+    "key": "gemma2",
+    "path": "models/gemma-2-2b-it",
+    "slug": "gemma2_2b_instruct",
+    "type": "gemma2"
+  },
+  "no_sft_role_configs": {
+    "direct": {
+      "path": "output/ablations/gemma2_2b_component_v1/no_sft/resolved_role_configs/direct.yaml",
+      "sha256": "ef188140df322144cf7874944c2b5dd076636a65fdfb13cd635bc93acca8ee94",
+      "size": 2557
+    },
+    "evidence": {
+      "path": "output/ablations/gemma2_2b_component_v1/no_sft/resolved_role_configs/evidence.yaml",
+      "sha256": "d12c293d3652b21a0bd60c8e5cfbeff329ac9fbddb5037b0c97aa11b06897491",
+      "size": 2536
+    },
+    "verification": {
+      "path": "output/ablations/gemma2_2b_component_v1/no_sft/resolved_role_configs/verification.yaml",
+      "sha256": "e3bed1aa2c6e0813464ba97c8ca295e9e63551a3cd9de87ca6a9daaf014e5f83",
+      "size": 2586
+    }
+  },
+  "output_root": "output/ablations/gemma2_2b_component_v1",
+  "schema_version": 1,
+  "source": {
+    "primary_multi_output": "output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k",
+    "role_policies": {
+      "direct": {
+        "sft_actor_adapter": "output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/sft/adapters/direct_adapter",
+        "sft_actor_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/sft/adapters/direct_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "5277ee5321c28da2c43982fb4abc8545c2fd288a94950ad8e823ed855a21be46",
+              "size": 382
+            },
+            "adapter_config.json": {
+              "sha256": "55d70f203219045aa3e43a9a82cff1f6ce52a6872619b9bd58c75315f40fb282",
+              "size": 1125
+            },
+            "adapter_model.safetensors": {
+              "sha256": "8dddd1289b52dfc5c488d03f0aae1f93a5a142db32ef740fa5998839774475a7",
+              "size": 1329119768
+            }
+          }
+        },
+        "source_final_registry": {
+          "path": "output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/roles/direct/registry/final.json",
+          "sha256": "4ffbf0ac66aca91e526bfb32ddc670903189135b3e43ed0240d084212cf58e31",
+          "size": 2091
+        },
+        "trained_critic_adapter": "output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/roles/direct/adapters/iteration_01/critic_adapter",
+        "trained_critic_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/roles/direct/adapters/iteration_01/critic_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "40f87607cb031f4df8a9586b630cdac6a6ae7c260a08f68af7d5699705309fcd",
+              "size": 404
+            },
+            "adapter_config.json": {
+              "sha256": "d35a62034e6c0f0761c31df0fa6e3d9be45751c75fdc4eecb4d082fd32273630",
+              "size": 1125
+            },
+            "adapter_model.safetensors": {
+              "sha256": "2a43dff4ffb6f0851a0875a7385e7b50c6d70378a73257f954d7672a111f73a0",
+              "size": 1329119768
+            }
+          }
+        }
+      },
+      "evidence": {
+        "sft_actor_adapter": "output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/sft/adapters/evidence_adapter",
+        "sft_actor_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/sft/adapters/evidence_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "990cc7d35475a969f72ee0ba2ff07639882892a92133b7f57991633bbcf67030",
+              "size": 384
+            },
+            "adapter_config.json": {
+              "sha256": "2558ea8f37e5bb52507431f21fbc2ac0f9206d14931f2451009b2750caede442",
+              "size": 1125
+            },
+            "adapter_model.safetensors": {
+              "sha256": "a91cc7bada856b3b08d35e9cdae1237860c0035a7c86e74dbfa1eb89641f897b",
+              "size": 1329119768
+            }
+          }
+        },
+        "source_final_registry": {
+          "path": "output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/roles/evidence/registry/final.json",
+          "sha256": "1e88018850ae8f9fdf92535bd2f74c1a60d8f8e2a6a5cedb8a49bd48ceace518",
+          "size": 2103
+        },
+        "trained_critic_adapter": "output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/roles/evidence/adapters/iteration_01/critic_adapter",
+        "trained_critic_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/roles/evidence/adapters/iteration_01/critic_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "79123e00a563340ad69abae9a9aa7b1da3a1c4c361443a4340f44e0a8c1d347f",
+              "size": 406
+            },
+            "adapter_config.json": {
+              "sha256": "3de40fa4da6e03d3a2680c72d8307dfd92fda031317a213b4845fd304637ea9b",
+              "size": 1125
+            },
+            "adapter_model.safetensors": {
+              "sha256": "2fa38cb6116562d2bd3c763c008bf1e690169f29e89a70c15012cc93db8d9c59",
+              "size": 1329119768
+            }
+          }
+        }
+      },
+      "verification": {
+        "sft_actor_adapter": "output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/sft/adapters/verification_adapter",
+        "sft_actor_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/sft/adapters/verification_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "432758480249749006c04612f838891e2b321bae7e3e4665e33415589122dfda",
+              "size": 388
+            },
+            "adapter_config.json": {
+              "sha256": "0f5d6a4bbbcca799d4867219e6f60e341b565684dc6a5201f526665685015576",
+              "size": 1125
+            },
+            "adapter_model.safetensors": {
+              "sha256": "7ad89e9a133ffa41e4dfaa484f5bc11f9564b9679268499c917d2e5c0d691543",
+              "size": 1329119768
+            }
+          }
+        },
+        "source_final_registry": {
+          "path": "output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/roles/verification/registry/final.json",
+          "sha256": "c371ec86652af3098195d9dfa74370b86056e063fe55ac69151bb7dc1744d4ac",
+          "size": 2127
+        },
+        "trained_critic_adapter": "output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/roles/verification/adapters/iteration_01/critic_adapter",
+        "trained_critic_identity": {
+          "kind": "directory",
+          "path": "PROJECT_ROOT/output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/roles/verification/adapters/iteration_01/critic_adapter",
+          "selected": {
+            "_SUCCESS": {
+              "sha256": "7e35b05d431367b9ee85ee3de8617a951b129afe6e0994a5b5e9a846bdcb58f3",
+              "size": 410
+            },
+            "adapter_config.json": {
+              "sha256": "6cb04011597e8f8ebac87352bdd054cb81e4af2aae74739fb60a0529bd3ed2f8",
+              "size": 1125
+            },
+            "adapter_model.safetensors": {
+              "sha256": "4d8afe06159739432ba0a038f9134d4931e614ea439d8534be9a77769242af60",
+              "size": 1329119768
+            }
+          }
+        }
+      }
+    },
+    "sft_registry": {
+      "path": "output/multi_acccollab/gemma2_2b_instruct_mmlu_sft10k/sft/registry.json",
+      "sha256": "cccdee1a915a320a78732d8dbd1419daaf477d24ab56eabea588dca58eb6995c",
+      "size": 3182
+    }
+  },
+  "variants": {
+    "gpu": {
+      "no_sft_full": [
+        "mmlu"
+      ],
+      "sft_base_critic": [
+        "mmlu"
+      ],
+      "sft_only": [
+        "boolq",
+        "sciq",
+        "bbh",
+        "arc",
+        "mmlu"
+      ],
+      "sft_trained_critic": [
+        "mmlu"
+      ]
+    },
+    "offline_from_full_records": [
+      "actor_dpo_only_round0",
+      "deliberation_rounds_0_to_4",
+      "per_role",
+      "majority",
+      "oracle_any_role",
+      "pair_agreement"
+    ]
+  }
+}

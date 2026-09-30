@@ -1,0 +1,121 @@
+{
+  "answer_extractor_sha256": "ecc5899445dc3c1764dad321b8bc91feabd4f865c601976896657b2c540b14c1",
+  "dataset": "mmlu",
+  "decision_rule": "round_majority_then_fixed_direct",
+  "fingerprint": "f60782fe6c21784401a200f4dbdd9c5225748fbd422d84b0db39ca6081684cd2",
+  "headline": {
+    "accuracy": 0.6840193704600485,
+    "fallback_accuracy": 0.23529411764705882,
+    "fallback_rate": 0.018159806295399514,
+    "majority_conditional_accuracy": 0.6923188510916081,
+    "majority_coverage": 0.9818401937046005,
+    "oracle_any_role_accuracy": 0.749893177610027,
+    "parse_rate": 0.9979347671271899,
+    "per_role": {
+      "direct": {
+        "accuracy": 0.6749038598490243,
+        "parse_rate": 0.9975074775672981,
+        "truncation_rate": 0.0
+      },
+      "evidence": {
+        "accuracy": 0.6704173194701609,
+        "parse_rate": 0.9970089730807578,
+        "truncation_rate": 0.0
+      },
+      "verification": {
+        "accuracy": 0.6828799316336704,
+        "parse_rate": 0.9961543939609743,
+        "truncation_rate": 0.0
+      }
+    },
+    "round": 0,
+    "samples": 14042,
+    "unanimous_rate": 0.7998860561173622
+  },
+  "implementation_version": "multi_acccollab_policy_lattice_v1",
+  "pair_agreement": {
+    "direct+evidence": {
+      "agree": 12080,
+      "agree_correct": 8740,
+      "conditional_accuracy": 0.7235099337748344,
+      "coverage": 0.8602763139153967
+    },
+    "direct+verification": {
+      "agree": 12100,
+      "agree_correct": 8843,
+      "conditional_accuracy": 0.7308264462809917,
+      "coverage": 0.8617006124483692
+    },
+    "evidence+verification": {
+      "agree": 12071,
+      "agree_correct": 8772,
+      "conditional_accuracy": 0.7267003562256649,
+      "coverage": 0.859635379575559
+    }
+  },
+  "per_round": [
+    {
+      "accuracy": 0.6840193704600485,
+      "fallback_accuracy": 0.23529411764705882,
+      "fallback_rate": 0.018159806295399514,
+      "majority_conditional_accuracy": 0.6923188510916081,
+      "majority_coverage": 0.9818401937046005,
+      "oracle_any_role_accuracy": 0.749893177610027,
+      "parse_rate": 0.9979347671271899,
+      "per_role": {
+        "direct": {
+          "accuracy": 0.6749038598490243,
+          "parse_rate": 0.9975074775672981,
+          "truncation_rate": 0.0
+        },
+        "evidence": {
+          "accuracy": 0.6704173194701609,
+          "parse_rate": 0.9970089730807578,
+          "truncation_rate": 0.0
+        },
+        "verification": {
+          "accuracy": 0.6828799316336704,
+          "parse_rate": 0.9961543939609743,
+          "truncation_rate": 0.0
+        }
+      },
+      "round": 0,
+      "samples": 14042,
+      "unanimous_rate": 0.7998860561173622
+    }
+  ],
+  "pipeline": "multi_acccollab_ablation",
+  "rescored_from_raw_response": true,
+  "role_records": {
+    "direct": {
+      "path": "PROJECT_ROOT/output/ablations/phi4_mini_instruct_full5/policy_lattice/mmlu/sft_only/roles/direct/records.jsonl",
+      "sha256": "c967762b7441b2aa6f6ca55d2eb9a0acc0870b3810bc024841b7507edb0a506e"
+    },
+    "evidence": {
+      "path": "PROJECT_ROOT/output/ablations/phi4_mini_instruct_full5/policy_lattice/mmlu/sft_only/roles/evidence/records.jsonl",
+      "sha256": "2a034717c749731a1659f9fb4c58a413c8db439b13886294665e3d8c4a76e86e"
+    },
+    "verification": {
+      "path": "PROJECT_ROOT/output/ablations/phi4_mini_instruct_full5/policy_lattice/mmlu/sft_only/roles/verification/records.jsonl",
+      "sha256": "f534b612880e3ea1e6293e852826d74eb58a411471bf033295312c38f55c41b1"
+    }
+  },
+  "roles": [
+    "direct",
+    "evidence",
+    "verification"
+  ],
+  "samples": 14042,
+  "schema_version": 1,
+  "source_sha256": {
+    "src/ablations/policy_lattice.py": "2226e636f79fcf8a288f4e8cd1fd48d67e1f07dd90b4c4e3ab31b0a24bf35d41",
+    "src/acccollab/evaluation.py": "4ad0b2a6f74b7f5b5e9463c4aab92b0fbcb86bd5c3ab8a3a0e1539cb48f0aa6c",
+    "src/acccollab/generation.py": "d7b2ee834fc9ef863a299a2032a05c4d052b240e0762e87b309408360119293c",
+    "src/acccollab/policy.py": "292dda79ae833647fe79004a79a580e39b2c4f22f1440eb34ec0f25fb32f4d4d",
+    "src/acccollab/prompts.py": "5677565cda96ab7bcaf3f7bd10f1b6724392083e69156806805538607e7b88b2",
+    "src/inference/vllm_server.py": "28a899afc53bd72bf76fc846ed847d15948e1bff663c49b21c7c3ef4563b7259",
+    "src/parsing/answer_extractor.py": "ecc5899445dc3c1764dad321b8bc91feabd4f865c601976896657b2c540b14c1"
+  },
+  "uses_judge": false,
+  "variant": "sft_only"
+}

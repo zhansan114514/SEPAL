@@ -1,0 +1,20 @@
+{
+  "accuracy": 0.907,
+  "correct": 907,
+  "dataset": "sciq",
+  "decision_rule": "single_model_single_shot",
+  "method": "direct",
+  "model_name": "PROJECT_ROOT/models/Phi-4-mini-instruct",
+  "model_type": "phi4",
+  "parse_rate": 0.999,
+  "parsed": 999,
+  "pipeline": "inference_baseline",
+  "protocol_version": "acccollab_inference_baselines_v1",
+  "reused_from": "output/baselines/phi4_mini_instruct/sciq/debate/records.jsonl",
+  "samples": 1000,
+  "schema_version": 1,
+  "stage_fingerprint": "73dc5084a0d07c8474c3f3a623bf99f441af2be58bae1c4f6c291b5cc1dd8e6a",
+  "trials": 1,
+  "truncated": 0,
+  "truncation_rate": 0.0
+}

@@ -1,0 +1,2 @@
+# Preserve release bytes: PROVENANCE_MANIFEST.json verifies exact file hashes.
+* -text

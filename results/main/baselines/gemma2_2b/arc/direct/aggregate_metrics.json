@@ -1,0 +1,20 @@
+{
+  "accuracy": 0.846674182638106,
+  "correct": 3004,
+  "dataset": "arc",
+  "decision_rule": "single_model_single_shot",
+  "method": "direct",
+  "model_name": "PROJECT_ROOT/models/gemma-2-2b-it",
+  "model_type": "gemma2",
+  "parse_rate": 1.0,
+  "parsed": 3548,
+  "pipeline": "inference_baseline",
+  "protocol_version": "acccollab_inference_baselines_v1",
+  "reused_from": "output/baselines/gemma2_2b_instruct/arc/debate/records.jsonl",
+  "samples": 3548,
+  "schema_version": 1,
+  "stage_fingerprint": "a0bc113e3d7505adfe2b00497afc3507b1c7309a8845f9a5dba66ed2a00dec61",
+  "trials": 1,
+  "truncated": 0,
+  "truncation_rate": 0.0
+}

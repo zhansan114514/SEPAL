@@ -1,0 +1,20 @@
+{
+  "accuracy": 0.8376550169109357,
+  "correct": 2972,
+  "dataset": "arc",
+  "decision_rule": "single_model_single_shot",
+  "method": "direct",
+  "model_name": "PROJECT_ROOT/models/Mistral-7B-Instruct-v0.3",
+  "model_type": "mistral_v03",
+  "parse_rate": 0.9968996617812852,
+  "parsed": 3537,
+  "pipeline": "inference_baseline",
+  "protocol_version": "acccollab_inference_baselines_v1",
+  "reused_from": "output/baselines/mistral_7b_instruct_v03/arc/debate/records.jsonl",
+  "samples": 3548,
+  "schema_version": 1,
+  "stage_fingerprint": "b30d7d0324cf100a3fa806227d7f77fe64a0f80c80f240e4bc7b465dd8cfcb97",
+  "trials": 1,
+  "truncated": 0,
+  "truncation_rate": 0.0
+}

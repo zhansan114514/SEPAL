@@ -1,0 +1,58 @@
+run:
+  name: multi_acccollab_smoke_mmlu
+  output_dir: output/multi_acccollab/smoke_mmlu_v2
+  seed: 4242
+base_acccollab_config: configs/acccollab/llama3_8b_instruct_multi_smoke_mmlu.yaml
+roles:
+  - name: direct
+    actor_instruction: Solve directly and concisely using the decisive fact or calculation.
+    critic_instruction: Check the decisive fact and add only brief correctness-improving details.
+    device: 0
+    seed_offset: 0
+  - name: evidence
+    actor_instruction: Ground the answer in the most relevant evidence or domain principle.
+    critic_instruction: Check the evidence or principle and add only brief corrective details.
+    device: 1
+    seed_offset: 10000
+  - name: verification
+    actor_instruction: Independently solve and verify the answer against its strongest alternative.
+    critic_instruction: Independently verify the answer and add only brief corrective details.
+    device: 2
+    seed_offset: 20000
+sft:
+  data:
+    split: train
+    samples: 12
+    strategy: random
+    expected_samples: 12
+  generation:
+    temperatures: [0.2, 0.7, 1.0]
+    top_p: 0.9
+    max_tokens: 256
+    enable_thinking: false
+  training:
+    min_examples_per_role: 1
+    learning_rate: 5.0e-5
+    batch_size: 1
+    gradient_accumulation_steps: 1
+    epochs: 1
+    max_length: 2048
+    warmup_ratio: 0.0
+    weight_decay: 0.01
+    max_grad_norm: 1.0
+    optim: adamw_torch
+    timeout_per_1k: 3600
+    checkpoint_steps: 10
+    checkpoint_total_limit: 1
+    resume_from_checkpoint: true
+runtime:
+  sft_generation_devices: [0, 1, 2, 3]
+  sft_generation_batch_size: 3
+  parallel_role_pipelines: true
+evaluation:
+  decision_rule: final_round_majority_then_fixed_direct
+  fallback_role: direct
+  use_judge: false
+  policy_source_output_dir: null
+profile: smoke_train
+implementation_version: multi_acccollab_sft10k_majority_v1

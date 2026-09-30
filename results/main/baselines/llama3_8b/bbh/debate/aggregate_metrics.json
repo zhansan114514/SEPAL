@@ -1,0 +1,75 @@
+{
+  "dataset": "bbh",
+  "decision_rule": "single_final_actor_answer",
+  "final": {
+    "accuracy": 0.5,
+    "correct": 630,
+    "parse_rate": 0.9944444444444445,
+    "parsed": 1253,
+    "round": 4,
+    "samples": 1260,
+    "source": "round_4_single_actor",
+    "truncated": 0,
+    "truncation_rate": 0.0
+  },
+  "method": "actor_critic_debate",
+  "model_name": "PROJECT_ROOT/models/Meta-Llama-3-8B-Instruct",
+  "model_type": "llama3",
+  "per_round": [
+    {
+      "accuracy": 0.49523809523809526,
+      "correct": 624,
+      "parse_rate": 0.9992063492063492,
+      "parsed": 1259,
+      "round": 0,
+      "samples": 1260,
+      "truncated": 0,
+      "truncation_rate": 0.0
+    },
+    {
+      "accuracy": 0.5087301587301587,
+      "correct": 641,
+      "parse_rate": 1.0,
+      "parsed": 1260,
+      "round": 1,
+      "samples": 1260,
+      "truncated": 0,
+      "truncation_rate": 0.0
+    },
+    {
+      "accuracy": 0.5111111111111111,
+      "correct": 644,
+      "parse_rate": 0.9984126984126984,
+      "parsed": 1258,
+      "round": 2,
+      "samples": 1260,
+      "truncated": 0,
+      "truncation_rate": 0.0
+    },
+    {
+      "accuracy": 0.5,
+      "correct": 630,
+      "parse_rate": 0.9952380952380953,
+      "parsed": 1254,
+      "round": 3,
+      "samples": 1260,
+      "truncated": 0,
+      "truncation_rate": 0.0
+    },
+    {
+      "accuracy": 0.5,
+      "correct": 630,
+      "parse_rate": 0.9944444444444445,
+      "parsed": 1253,
+      "round": 4,
+      "samples": 1260,
+      "truncated": 0,
+      "truncation_rate": 0.0
+    }
+  ],
+  "pipeline": "inference_baseline",
+  "protocol_version": "acccollab_inference_baselines_v1",
+  "schema_version": 1,
+  "stage_fingerprint": "69d9ea044c919378cf39f594995c5d653480bab10a8ca62ae3d3da9dabaa8914",
+  "trials": 1
+}
